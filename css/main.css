@@ -11885,9 +11885,24 @@ body.is-cursor-active * {
 }
 
 /* My Custom  */
-[class*=" icon-"],
-[class^=icon-] {
-  border: 2px solid white;
+.round-border-icon .dot {
+  position: relative;
   border-radius: 50%;
+  margin-left: 5px;
   padding: 6px;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #FFF;
+}
+
+.round-border-icon .dot::before{
+  content: '';
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  height: 25px;
+  width: 25px;
+  /* background-color: white; */
+  border-radius: 50%;
+  border: 2px solid white;
 }
