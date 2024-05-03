@@ -12095,3 +12095,15 @@ footer {
 textarea.resize-none{
   resize: none;
 }
+
+.imgs-up-down img{
+  height: 350px;
+  width: 16vw;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 440px) {
+  .imgs-up-down img{
+    width: 27vw;
+  }
+}
