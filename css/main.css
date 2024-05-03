@@ -12091,3 +12091,7 @@ footer {
 .text-70px{
   font-size: 70px !important;
 }
+
+textarea.resize-none{
+  resize: none;
+}
