@@ -12005,7 +12005,7 @@ footer {
   height: 100vh;
   margin: 0 auto;
   width: 1170px;
-  z-index: 6;
+  z-index: 4;
 }
 .lines .line {
   position: absolute;
@@ -12061,3 +12061,33 @@ footer {
   animation-delay: 2.5s;
 }
 /* animated lines end */
+
+@media screen and (max-width:768px) {
+  .lines .line:nth-child(1) {
+      left: 20vw;
+  }
+  .lines .line:nth-child(2) {
+      left: 40vw;
+  }
+  .lines .line:nth-child(3) {
+      left: 60vw;
+  }
+  .lines .line:nth-child(4) {
+      left: 80vw;
+  }
+  .overflow-on-footer {
+      height: 300px;
+  }
+  .overflow-on-footer .top-50{
+      top: 30% !important;
+  }
+  .testim .dots{
+      margin-left: 0px;
+      margin: auto;
+      width: 100%;
+  }
+}
+
+.text-70px{
+  font-size: 70px !important;
+}
