@@ -531,17 +531,20 @@ function verticalSlider() {
     direction: "vertical",
     autoHeight: true,
     centeredSlides: true,
+    autoplay: {
+      delay: 5000, // Adjust the delay time as needed (in milliseconds)
+      disableOnInteraction: false, // Prevent autoplay from being stopped when user interacts with slider
+    },
     loop: true,
-    spaceBetween: 30,
     speed: 400,
     slidesPerView: 1,
     mousewheel: {
-      enabled: true
+      enabled: false // Disable mousewheel scrolling
     },
     breakpoints: {
-      991: { slidesPerView: 3, spaceBetween: 130, },
-      767:  { slidesPerView: 1, spaceBetween: 30, },
-      574:  { slidesPerView: 1, spaceBetween: 30, },
+      991: { slidesPerView: 3 },
+      767:  { slidesPerView: 1 },
+      574:  { slidesPerView: 1 },
     },
     lazy: {
       loadPrevNext: true,
@@ -577,6 +580,7 @@ function verticalSlider() {
     images[swiper.realIndex].classList.add('is-active');
   });
 }
+
 
 function verticalSlider2() {
   new Swiper('.js-verticalSlider-type-2', {
