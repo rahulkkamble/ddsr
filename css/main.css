@@ -11988,3 +11988,76 @@ footer {
 .form-input-bg{
   background-color: #ecebe9 !important;
 }
+/* Animated Background Lines */
+@keyframes run {
+  0%{
+      top: -50%;
+  }
+  100%{
+      top: 110%;
+  }
+}
+.lines {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  margin: 0 auto;
+  width: 1170px;
+  z-index: 6;
+}
+.lines .line {
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  top: 0;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  margin: 0;
+}
+.lines .line:nth-child(1) {
+  left: 0%;
+}
+.lines .line:nth-child(2) {
+  left: 389px;
+}
+.lines .line:nth-child(3) {
+  right: 389px;
+}
+.lines .line:nth-child(4) {
+  right: 0;
+}
+.lines .line::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 15vh;
+  width: 100%;
+  top: -50%;
+  left: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, #ffffff 75%, #ffffff 100%);
+  -webkit-animation: run 7s 0s infinite;
+  animation: run 7s 0s infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+  animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
+}
+.lines .line::after {
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+}
+.lines .line:nth-child(2)::after {
+  -webkit-animation-delay: 2.2s;
+  animation-delay: 2.2s;
+}
+.lines .line:nth-child(3)::after {
+  -webkit-animation-delay: 2.4s;
+  animation-delay: 2.4s;
+}
+.lines .line:nth-child(4)::after {
+  -webkit-animation-delay: 2.5s;
+  animation-delay: 2.5s;
+}
+/* animated lines end */
