@@ -11898,7 +11898,7 @@ body.is-cursor-active * {
 
 }
 
-.round-border-icon .dot::before{
+.round-border-icon .dot::before {
   content: '';
   position: absolute;
   left: -5px;
@@ -11934,7 +11934,7 @@ body.is-cursor-active * {
   transition: width .3s;
 }
 
-.customized-big-in-center .swiper-slide{
+.customized-big-in-center .swiper-slide {
   margin-top: 2rem;
   transition: width .5s;
 }
@@ -11947,16 +11947,15 @@ body.is-cursor-active * {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #0000002d;
+  background: #0000003d;
   border-radius: 16px;
 }
 
-.header__logo img{
+.header__logo img {
   width: 30%;
 }
 
 /* new footer */
-
 .text-small {
   font-size: 0.9rem;
 }
@@ -11967,7 +11966,8 @@ a {
   transition: all 0.3s;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
 }
 
@@ -11983,20 +11983,24 @@ a:hover, a:focus {
 footer {
   background: #212529;
 }
+/* Footer end */
 
 /* My form */
-.form-input-bg{
+.form-input-bg {
   background-color: #ecebe9 !important;
 }
+
 /* Animated Background Lines */
 @keyframes run {
-  0%{
-      top: -50%;
+  0% {
+    top: -50%;
   }
-  100%{
-      top: 110%;
+
+  100% {
+    top: 110%;
   }
 }
+
 .lines {
   position: absolute;
   top: 0;
@@ -12007,6 +12011,7 @@ footer {
   width: 1170px;
   z-index: 4;
 }
+
 .lines .line {
   position: absolute;
   width: 1px;
@@ -12016,18 +12021,23 @@ footer {
   overflow: hidden;
   margin: 0;
 }
+
 .lines .line:nth-child(1) {
   left: 0%;
 }
+
 .lines .line:nth-child(2) {
   left: 389px;
 }
+
 .lines .line:nth-child(3) {
   right: 389px;
 }
+
 .lines .line:nth-child(4) {
   right: 0;
 }
+
 .lines .line::after {
   content: "";
   display: block;
@@ -12044,66 +12054,81 @@ footer {
   -webkit-animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
   animation-timing-function: cubic-bezier(0.4, 0.26, 0, 0.97);
 }
+
 .lines .line::after {
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
 }
+
 .lines .line:nth-child(2)::after {
   -webkit-animation-delay: 2.2s;
   animation-delay: 2.2s;
 }
+
 .lines .line:nth-child(3)::after {
   -webkit-animation-delay: 2.4s;
   animation-delay: 2.4s;
 }
+
 .lines .line:nth-child(4)::after {
   -webkit-animation-delay: 2.5s;
   animation-delay: 2.5s;
 }
+
 /* animated lines end */
 
 @media screen and (max-width:768px) {
   .lines .line:nth-child(1) {
-      left: 20vw;
+    left: 20vw;
   }
+
   .lines .line:nth-child(2) {
-      left: 40vw;
+    left: 40vw;
   }
+
   .lines .line:nth-child(3) {
-      left: 60vw;
+    left: 60vw;
   }
+
   .lines .line:nth-child(4) {
-      left: 80vw;
+    left: 80vw;
   }
+
   .overflow-on-footer {
-      height: 300px;
+    height: 300px;
   }
-  .overflow-on-footer .top-50{
-      top: 30% !important;
+
+  .overflow-on-footer .top-50 {
+    top: 30% !important;
   }
-  .testim .dots{
-      margin-left: 0px;
-      margin: auto;
-      width: 100%;
+
+  .testim .dots {
+    margin-left: 0px;
+    margin: auto;
+    width: 100%;
   }
 }
 
-.text-70px{
+.text-70px {
   font-size: 70px !important;
 }
 
-textarea.resize-none{
+textarea.resize-none {
   resize: none;
 }
 
-.imgs-up-down img{
+.imgs-up-down img {
   height: 350px;
   width: 16vw;
   object-fit: cover;
 }
 
 @media screen and (max-width: 440px) {
-  .imgs-up-down img{
+  .imgs-up-down img {
     width: 27vw;
+  }
+
+  .header__logo img {
+    width: 100%;
   }
 }
