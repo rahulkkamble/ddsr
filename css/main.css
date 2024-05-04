@@ -12123,12 +12123,13 @@ textarea.resize-none {
   object-fit: cover;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 768px) {
   .imgs-up-down img {
     width: 27vw;
   }
-
-  .header__logo img {
+}
+@media screen and (max-width: 440px) {
+  .imgs-up-down img {
     width: 100%;
   }
 }
