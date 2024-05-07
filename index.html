@@ -1712,36 +1712,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.2/dist/gsap.min.js"></script>
   <script>
-    gsap.to(".special_wrapper .swiper-slide.active", {
-      scale: 1,
-      opacity: 1,
-      stagger: .1
-    });
-
-    var anim;
     $(".tabs__button").on("click", function () {
-      console.log(this)
-      $(".tabs__button.active").removeClass("active");
-      $(this).addClass("active");
-
-      const toActive = $(this).attr("data-active");
-
-      if (anim) {
-        anim.kill();
-      }
-      anim = gsap.timeline();
-
-      anim.to(".special_wrapper .swiper-slide.active", { duration: .1, scale: .2, opacity: .2 }).to(".special_wrapper .swiper-slide.active", { duration: .1, scale: 0, opacity: .2 })
-
-      anim.eventCallback("onComplete", function () {
-        $(".special_wrapper .swiper-slide.active").removeClass("active");
-        $(toActive).addClass("active");
-
-        //anim=gsap.timeline();
-        anim.to(".special_wrapper .swiper-slide.active", { duration: .5, scale: 1, opacity:1, stagger: .1 })
-        anim.to(".special_wrapper .swiper-slide.active", { duration: .6, scale:1, stagger: .1 })
-
-      });
+      document.querySelectorAll("[data-anim-child^='img-right']").forEach(x => x.classList.remove("is-in-view"));
+      setTimeout(()=>{
+        document.querySelectorAll("[data-anim-child^='img-right']").forEach(x => x.classList.add("is-in-view"));
+      },10);
+      
     });
   </script>
 </body>
