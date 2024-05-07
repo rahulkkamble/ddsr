@@ -440,7 +440,7 @@ function sectionSlider() {
 
     new Swiper(el, {
       speed: 600,
-      autoHeight: true,
+      autoHeight: false,
       
       centeredSlides: centered,
       parallax: true,
@@ -782,7 +782,7 @@ const RevealAnim = (function() {
         const animChilds = el.querySelectorAll('[data-anim-child]');
         el.classList.add('animated');
         animChilds.forEach(el => animateElement(el));
-        
+
       })
       .addTo(App.SMcontroller)
     }

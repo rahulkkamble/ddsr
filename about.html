@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en" data-x="html" data-x-toggle="html-overflow-hidden">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 imported for missing classes -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/vendors.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>DDSR</title>
+</head>
+
+<body>
+    <div class="menuFullScreen js-menuFullScreen">
+        <div class="menuFullScreen__topMobile js-menuFullScreen-topMobile">
+          <div class="d-flex items-center text-white js-menuFullScreen-toggle">
+            <i class="icon-menu text-9"></i>
+            <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+          </div>
+    
+          <div class="">
+            <img src="img/general/logo-white.svg" alt="logo">
+          </div>
+    
+          <button class="button text-white mr-30 lg:mr-0">
+            EN <i class="icon-chevron-down ml-15"></i>
+          </button>
+        </div>
+    
+        <div class="menuFullScreen__mobile__bg js-menuFullScreen-mobile-bg"></div>
+    
+        <div class="menuFullScreen__left">
+          <div class="menuFullScreen__bg js-menuFullScreen-bg">
+            <img src="img/menu/bg.png" alt="image">
+          </div>
+    
+          <button class="menuFullScreen__close js-menuFullScreen-toggle js-menuFullScreen-close-btn">
+            <span class="icon">
+              <span></span>
+              <span></span>
+            </span>
+            CLOSE
+          </button>
+    
+          <div class="menuFullScreen-links js-menuFullScreen-links">
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <a href="#">
+                HOME
+                <!-- <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i> -->
+              </a>
+            </div>
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <a href="#">
+                PROJECTS
+                <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i>
+              </a>
+    
+    
+              <div class="menuFullScreen-links-subnav js-menuFullScreen-subnav">
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">PROJECT 1</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">PROJECT 2</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">PROJECT 3</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">PROJECT 4</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <a href="#">
+                BOOKING
+                <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i>
+              </a>
+    
+    
+              <div class="menuFullScreen-links-subnav js-menuFullScreen-subnav">
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Booking</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Cart</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Checkout</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Activities Single</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <!-- <a href="#">
+                PAGES
+                <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i>
+              </a> -->
+    
+    
+              <!-- <div class="menuFullScreen-links-subnav js-menuFullScreen-subnav">
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">About</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Contact</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">FAQ</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Pricing</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Terms</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="404.html">404 page</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">Invoice</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">UI Elements</a>
+                </div>
+              </div> -->
+            </div>
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <a href="#">
+                MEDIA & EVENTS
+                <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i>
+              </a>
+    
+    
+              <div class="menuFullScreen-links-subnav js-menuFullScreen-subnav">
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">EVENT 1</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">EVENT 2</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">EVENT 3</a>
+                </div>
+    
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="">MEDIA</a>
+                </div>
+    
+              </div>
+    
+            </div>
+    
+    
+            <div class="menuFullScreen-links__item">
+              <a href="">
+                CONTACT
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="menuFullScreen__right js-menuFullScreen-right">
+          <div class="text-center">
+            <div class="mb-100">
+              <img src="img/general/logo-black.svg" alt="image">
+            </div>
+    
+            <div class="text-sec lh-11 fw-500 text-40">
+              Hotel & Spa Swiss<br>
+              Resort
+            </div>
+    
+            <div class="mt-40">
+              <div class="text-30 text-sec fw-500">
+                Location
+              </div>
+              <div class="mt-10">
+                PO Box 16122 Collins Street West<br>
+                Victoria 8007 Australia
+              </div>
+            </div>
+    
+            <div class="mt-40">
+              <div class="text-30 text-sec fw-500">
+                Phone Support
+              </div>
+              <div class="mt-10">
+                <div>
+                  <a href="#">+ 91 345 647 745</a>
+                </div>
+                <div>
+                  <a href="#">info@swiss-resort.com</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="mt-40">
+              <div class="text-30 text-sec fw-500">
+                Connect With Us
+              </div>
+              <div class="mt-10">
+                <a href="#">+ 91 345 647 745</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="menuFullScreen__bottomMobile js-menuFullScreen-buttomMobile">
+          <button class="button d-none rounded-200 w-1/1 py-20 -light-1 bg-accent-2">
+            BOOK YOUR STAY
+          </button>
+    
+          <a href="#" class="d-flex items-center mt-40">
+            <i class="icon-phone mr-10"></i>
+            <span>+91-96567-7854</span>
+          </a>
+    
+          <a href="#" class="d-flex mt-20">
+            <i class="icon-map mr-10"></i>
+            <span>
+              PO Box 16122 Collins Street West,
+              Australia
+            </span>
+          </a>
+    
+          <a href="#" class="d-flex items-center mt-20">
+            <i class="icon-mail mr-10"></i>
+            <span>info@swiss-resort.com</span>
+          </a>
+        </div>
+      </div>
+
+
+  <!-- cursor start -->
+  <div class="cursor js-cursor">
+    <div class="cursor__wrapper">
+      <div class="cursor__follower js-follower"></div>
+      <div class="cursor__label js-label"></div>
+      <div class="cursor__icon js-icon"></div>
+    </div>
+  </div>
+  <!-- cursor end -->
+
+  <main>
+
+    <header class="header -mx-60 js-header" data-add-bg="bg-dark-2" data-x="header" data-x-toggle="-is-menu-opened"
+    data-anim="fade delay-3">
+    <div class="header__container py-50">
+      <div class="headerMobile__left">
+        <div class="d-none lg:d-flex text-white items-center js-menuFullScreen-toggle">
+          <i class="icon-menu text-9"></i>
+          <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+        </div>
+
+        <div class="text-white lg:d-none">
+          <div class="desktopNav">
+            <div class="desktopNav__item">
+              <a href="#">
+                Home
+                <!-- <i class="icon-chevron-down"></i> -->
+              </a>
+
+              <!-- <div class="desktopNavSubnav">
+                <div class="desktopNavSubnav__content">
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="index.html">Home 01</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 02</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 03</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 04</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 05</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 06</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 07</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 08</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 09</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Home 10</a>
+                  </div>
+
+                </div>
+              </div> -->
+            </div>
+
+            <div class="desktopNav__item">
+              <a href="about.html">
+                About
+                <!-- <i class="icon-chevron-down"></i> -->
+              </a>
+            </div>
+
+            <div class="desktopNav__item">
+              <a href="#">
+                PROJECT <i class="icon-chevron-down"></i>
+              </a>
+
+              <div class="desktopNavSubnav">
+                <div class="desktopNavSubnav__content -col-3">
+                  <div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">PROJECT v1</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">PROJECT v2</a>
+                    </div>
+
+                  </div>
+
+                  <div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">PROJECT SINGLE v1</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">PROJECT SINGLE v2</a>
+                    </div>
+
+                  </div>
+
+                  <!-- <div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Restaurant</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Restaurant Single</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Spa &amp; wellness</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Meet &amp; celebrate</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Activities</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Activities Single</a>
+                    </div>
+
+                  </div> -->
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="desktopNav__item">
+              <a href="#">
+                Pages <i class="icon-chevron-down"></i>
+              </a>
+
+              <div class="desktopNavSubnav">
+                <div class="desktopNavSubnav__content">
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">About</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Contact</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Booking</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Cart</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Checkout</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">FAQ</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Pricing</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Terms</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">Invoice</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="404.html">404 page</a>
+                  </div>
+
+                </div>
+              </div>
+            </div> -->
+
+            <div class="desktopNav__item">
+              <a href="#">
+                MEDIA & EVENTS <i class="icon-chevron-down"></i>
+              </a>
+
+              <div class="desktopNavSubnav">
+                <div class="desktopNavSubnav__content">
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">EVENT 1</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">EVENT 2</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">EVENT 3</a>
+                  </div>
+
+                  <div class="desktopNavSubnav__item">
+                    <a href="">MEDIA</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="desktopNav__item d-none">
+              <a href="">
+                Contact
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="header__center">
+        <div class="header__logo text-center">
+          <img src="img/ddsrWhite.png" alt="logo">
+        </div>
+      </div>
+
+      <div class="header__right d-flex items-center h-full">
+        <button class="button text-white mr-60 lg:d-none">
+          <i class="icon-phone mr-15"></i>
+          +91-96567-7854
+        </button>
+
+        <button class="button text-white mr-60 lg:mr-0">
+          EN <i class="icon-chevron-down ml-15"></i>
+        </button>
+
+        <button class="button d-none -md -blur-1 text-white rounded-200 mr-30 lg:d-none">
+          BOOK YOUR STAY
+        </button>
+        <div class="desktopNav__item text-white">
+          <a href="">
+            Contact
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+
+    <section data-anim-wrap class="pageHero -type-2 -items-center">
+      <div data-anim-child="img-right cover-white delay-1" class="pageHero__bg">
+        <img src="https://creativelayers.net/themes/swiss-resort-html/img/pageHero/4.png" alt="image">
+      </div>
+
+      <div class="container">
+        <div class="row justify-center">
+          <div class="col-auto">
+            <div data-split='lines' data-anim="split-lines delay-3" class="pageHero__content text-center">
+              <div class="pageHero__subtitle text-white uppercase mb-20">SINCE 1998</div>
+              <h1 class="pageHero__title lh-11 capitalize text-white">About DDSR Group</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout-pt-lg">
+      <div data-anim-wrap class="container">
+        <div class="row justify-center text-center">
+          <div class="col-xl-10 col-lg-11">
+            <div data-split='lines' data-anim="split-lines delay-2">
+              <div class="text-15 mb-20">
+                DDSR Group LUXURY HOTEL
+              </div>
+              <h2 class="text-64 md:text-40 capitalize">
+                Book your room & enjoy<br class="lg:d-none">
+                the comfort
+              </h2>
+
+              <p class="lh-17 px-90 lg:px-0 pt-40">
+                Welcome to the best five-star deluxe hotel in New York. Hotel elementum sesue the aucan vestibulum aliquam justo in
+                sapien rutrum volutpat. Donec in quis the pellentesque velit. Hotel ut nisl quam nestibulum. In enim justo,
+                rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
+                Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
+              </p>
+            </div>
+
+            <div class="row y-gap-30 justify-between pt-60 md:pt-40">
+
+              <div data-split='lines' data-anim="split-lines delay-7" class="col-auto">
+                <h3 class="text-64 md:text-30">12m+</h3>
+                <div class="uppercase lh-1 mt-20">Happy Customers</div>
+              </div>
+
+              <div data-split='lines' data-anim="split-lines delay-9" class="col-auto">
+                <h3 class="text-64 md:text-30">22</h3>
+                <div class="uppercase lh-1 mt-20">Luxe ROOMS</div>
+              </div>
+
+              <div data-split='lines' data-anim="split-lines delay-11" class="col-auto">
+                <h3 class="text-64 md:text-30">14</h3>
+                <div class="uppercase lh-1 mt-20">PRIVATE POOL</div>
+              </div>
+
+              <div data-split='lines' data-anim="split-lines delay-13" class="col-auto">
+                <h3 class="text-64 md:text-30">17</h3>
+                <div class="uppercase lh-1 mt-20">RESTAURANTS</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout-pt-lg layout-pb-lg">
+      <div class="container">
+        <div data-anim-wrap class="row y-gap-40 justify-between items-center">
+          <div data-anim="img-right cover-white delay-1" class="col-xl-6 col-lg-6">
+            <img src="img/about/6/1.png" alt="image">
+          </div>
+
+          <div data-split='lines' data-anim="split-lines delay-3" class="col-xl-5 col-lg-6">
+            <h3 class="text-40 md:text-30 capitalize">
+              Sophisticated Comfort
+            </h3>
+
+            <p class="lh-17 pt-40">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <br><br>
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            </p>
+          </div>
+        </div>
+
+        <div data-anim-wrap class="row y-gap-40 justify-between items-center pt-100 sm:pt-50">
+          <div data-anim="img-right cover-white delay-1" class="col-xl-6 col-lg-6">
+            <img src="img/about/6/2.png" alt="image">
+          </div>
+
+          <div data-split='lines' data-anim="split-lines delay-3" class="col-xl-5 col-lg-6">
+            <h3 class="text-40 md:text-30 capitalize">
+              A Unique Experience
+            </h3>
+
+            <p class="lh-17 pt-40">
+              Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout-pt-lg layout-pb-lg bg-light-1">
+      <div data-anim-wrap class="container">
+        <div class="row justify-center text-center">
+          <div data-split='lines' data-anim-child="split-lines delay-2" class="col-auto">
+            <div class="text-15 uppercase mb-30 sm:mb-10">OUR SERVICES</div>
+            <h2 class="text-64 md:text-40">Hotel Facilities</h2>
+          </div>
+        </div>
+
+        <div class="row y-gap-40 justify-between pt-100 sm:pt-50">
+
+          <div data-anim-child="slide-up delay-4" class="col-lg-auto col-md-4 col-6">
+            <div class="iconCard -type-1 -hover-1 text-center">
+              <div class="iconCard__icon text-50">
+                <div class="iconCard__icon__circle bg-white"></div>
+                <i class="icon-wifi"></i>
+              </div>
+              <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Wifi &amp; Internet</h4>
+            </div>
+          </div>
+
+          <div data-anim-child="slide-up delay-5" class="col-lg-auto col-md-4 col-6">
+            <div class="iconCard -type-1 -hover-1 text-center">
+              <div class="iconCard__icon text-50">
+                <div class="iconCard__icon__circle bg-white"></div>
+                <i class="icon-bus"></i>
+              </div>
+              <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Airport Transfer</h4>
+            </div>
+          </div>
+
+          <div data-anim-child="slide-up delay-6" class="col-lg-auto col-md-4 col-6">
+            <div class="iconCard -type-1 -hover-1 text-center">
+              <div class="iconCard__icon text-50">
+                <div class="iconCard__icon__circle bg-white"></div>
+                <i class="icon-tv"></i>
+              </div>
+              <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Smart TV</h4>
+            </div>
+          </div>
+
+          <div data-anim-child="slide-up delay-7" class="col-lg-auto col-md-4 col-6">
+            <div class="iconCard -type-1 -hover-1 text-center">
+              <div class="iconCard__icon text-50">
+                <div class="iconCard__icon__circle bg-white"></div>
+                <i class="icon-bed"></i>
+              </div>
+              <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Breakfast in Bed</h4>
+            </div>
+          </div>
+
+          <div data-anim-child="slide-up delay-8" class="col-lg-auto col-md-4 col-6">
+            <div class="iconCard -type-1 -hover-1 text-center">
+              <div class="iconCard__icon text-50">
+                <div class="iconCard__icon__circle bg-white"></div>
+                <i class="icon-laundry"></i>
+              </div>
+              <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Laundry Services</h4>
+            </div>
+          </div>
+
+          <div data-anim-child="slide-up delay-9" class="col-lg-auto col-md-4 col-6">
+            <div class="iconCard -type-1 -hover-1 text-center">
+              <div class="iconCard__icon text-50">
+                <div class="iconCard__icon__circle bg-white"></div>
+                <i class="icon-housekeeper"></i>
+              </div>
+              <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Housekeeper Services</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="layout-pt-lg layout-pb-lg">
+      <div data-anim-wrap class="container">
+        <div class="row justify-center text-center">
+          <div data-split='lines' data-anim="split-lines delay-1" class="col-auto">
+            <div class="text-15 uppercase mb-30 sm:mb-10">There's So Much to Discover</div>
+            <h2 class="text-64 md:text-40">The Discover</h2>
+          </div>
+        </div>
+
+        <div class="overflow-hidden pt-100 sm:pt-50 js-section-slider" data-gap="30" data-slider-cols="xl-3 lg-3 md-2 sm-1 base-1" data-pagination="js-slider2-pagination">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <a href="#" class="baseCard -type-1 -padding-lg">
+                <div class="baseCard__image ratio ratio-45:54">
+                  <img src="img/about/18/1.png" alt="image" class="img-ratio">
+                </div>
+
+                <div class="baseCard__content d-flex flex-column justify-end text-center">
+                  <div class="icon-restaurant text-40 text-white mb-20"></div>
+                  <h4 class="text-30 md:text-25 text-white">Restaurant Delfino</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#" class="baseCard -type-1 -padding-lg">
+                <div class="baseCard__image ratio ratio-45:54">
+                  <img src="img/about/18/2.png" alt="image" class="img-ratio">
+                </div>
+
+                <div class="baseCard__content d-flex flex-column justify-end text-center">
+                  <div class="icon-rocks text-40 text-white mb-20"></div>
+                  <h4 class="text-30 md:text-25 text-white">Spa &amp; Wellness</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#" class="baseCard -type-1 -padding-lg">
+                <div class="baseCard__image ratio ratio-45:54">
+                  <img src="img/about/18/3.png" alt="image" class="img-ratio">
+                </div>
+
+                <div class="baseCard__content d-flex flex-column justify-end text-center">
+                  <div class="icon-gym text-40 text-white mb-20"></div>
+                  <h4 class="text-30 md:text-25 text-white">Fitness Center</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#" class="baseCard -type-1 -padding-lg">
+                <div class="baseCard__image ratio ratio-45:54">
+                  <img src="img/about/18/4.png" alt="image" class="img-ratio">
+                </div>
+
+                <div class="baseCard__content d-flex flex-column justify-end text-center">
+                  <div class="icon-restaurant text-40 text-white mb-20"></div>
+                  <h4 class="text-30 md:text-25 text-white">Restaurant Delfino</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#" class="baseCard -type-1 -padding-lg">
+                <div class="baseCard__image ratio ratio-45:54">
+                  <img src="img/about/18/5.png" alt="image" class="img-ratio">
+                </div>
+
+                <div class="baseCard__content d-flex flex-column justify-end text-center">
+                  <div class="icon-rocks text-40 text-white mb-20"></div>
+                  <h4 class="text-30 md:text-25 text-white">Spa &amp; Wellness</h4>
+                </div>
+              </a>
+            </div>
+
+            <div class="swiper-slide">
+              <a href="#" class="baseCard -type-1 -padding-lg">
+                <div class="baseCard__image ratio ratio-45:54">
+                  <img src="img/about/18/6.png" alt="image" class="img-ratio">
+                </div>
+
+                <div class="baseCard__content d-flex flex-column justify-end text-center">
+                  <div class="icon-gym text-40 text-white mb-20"></div>
+                  <h4 class="text-30 md:text-25 text-white">Fitness Center</h4>
+                </div>
+              </a>
+            </div>
+
+          </div>
+
+          <div class="row justify-center pt-100 sm:pt-50 pb-20">
+            <div class="col-auto">
+              <div class="pagination -type-1 -accent-1 js-slider2-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="layout-pt-md layout-pb-lg bg-light-1">
+      <div class="container">
+        <div class="row justify-center text-center">
+          <div class="col-auto">
+            <div class="mb-40">
+              <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_d_428_953)">
+                  <path d="M9.67883 38C6.64234 38 4.27007 36.9524 2.56204 34.8571C0.854015 32.6667 0 29.4286 0 25.1429C0 20.6667 0.99635 16.381 2.98905 12.2857C5.07664 8.19048 8.01825 4.14286 11.8139 0.142864C11.9088 0.0476213 12.0511 0 12.2409 0C12.5255 0 12.7153 0.142858 12.8102 0.428574C13 0.619048 13.0474 0.857143 12.9526 1.14286C10.6752 4.19048 9.10949 7.14286 8.25548 10C7.49635 12.7619 7.11679 15.8571 7.11679 19.2857C7.11679 21.8571 7.44891 23.8571 8.11314 25.2857C8.77737 26.7143 9.67883 28 10.8175 29.1429L5.40876 30.1429C5.31387 28.5238 5.74088 27.2857 6.68978 26.4286C7.73358 25.5714 9.06205 25.1429 10.6752 25.1429C12.6679 25.1429 14.1861 25.7143 15.2299 26.8571C16.3686 28 16.938 29.5714 16.938 31.5714C16.938 33.6667 16.2737 35.2857 14.9453 36.4286C13.7117 37.4762 11.9562 38 9.67883 38ZM31.5985 38C28.562 38 26.1898 36.9524 24.4818 34.8571C22.8686 32.6667 22.062 29.4286 22.062 25.1429C22.062 20.5714 23.0584 16.2381 25.0511 12.1429C27.0438 8.04762 29.9854 4.04762 33.8759 0.142864C33.9708 0.0476213 34.1131 0 34.3029 0C34.5876 0 34.7774 0.142858 34.8723 0.428574C35.062 0.619048 35.1095 0.857143 35.0146 1.14286C32.7372 4.19048 31.1715 7.14286 30.3175 10C29.5584 12.7619 29.1788 15.8571 29.1788 19.2857C29.1788 21.8571 29.4635 23.9048 30.0328 25.4286C30.6971 26.8571 31.5985 28.0952 32.7372 29.1429L27.4708 30.1429C27.3759 28.5238 27.8029 27.2857 28.7518 26.4286C29.7007 25.5714 31.0292 25.1429 32.7372 25.1429C34.7299 25.1429 36.2482 25.7143 37.292 26.8571C38.4307 28 39 29.5714 39 31.5714C39 33.6667 38.3358 35.2857 37.0073 36.4286C35.7737 37.4762 33.9708 38 31.5985 38Z" fill="#122223" />
+                </g>
+                <defs>
+                  <filter id="filter0_d_428_953" x="0" y="0" width="45" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset dx="6" dy="6" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_428_953" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_428_953" result="shape" />
+                  </filter>
+                </defs>
+              </svg>
+            </div>
+            <div class="text-15 uppercase mb-30 sm:mb-15">VOICE FROM OUR GUESTS</div>
+            <h2 class="text-64 md:text-40 lh-065">Testimonials</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="relative container">
+        <div class="row justify-center pt-100 sm:pt-50">
+          <div class="col-xl-8 col-lg-10 col-9">
+            <div class="overflow-hidden js-section-slider" data-gap="30" data-slider-cols="xl-1 lg-1 md-1 sm-1 base-1" data-nav-prev="js-slider3-prev" data-nav-next="js-slider3-next">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <div class="text-sec text-40 md:text-24">
+                      “Some places are so good to stay in, you don&#39;t want to generate a rush on them. The DDSR Group lodge hotel in London is one of them.”
+                    </div>
+                    <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <div class="text-sec text-40 md:text-24">
+                      “Some places are so good to stay in, you don&#39;t want to generate a rush on them. The DDSR Group lodge hotel in London is one of them.”
+                    </div>
+                    <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <div class="text-sec text-40 md:text-24">
+                      “Some places are so good to stay in, you don&#39;t want to generate a rush on them. The DDSR Group lodge hotel in London is one of them.”
+                    </div>
+                    <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <div class="text-sec text-40 md:text-24">
+                      “Some places are so good to stay in, you don&#39;t want to generate a rush on them. The DDSR Group lodge hotel in London is one of them.”
+                    </div>
+                    <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="text-center">
+                    <div class="text-sec text-40 md:text-24">
+                      “Some places are so good to stay in, you don&#39;t want to generate a rush on them. The DDSR Group lodge hotel in London is one of them.”
+                    </div>
+                    <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="navAbsolute">
+                <button class="size-80 flex-center rounded-full js-slider3-prev">
+                  <i class="icon-arrow-left text-24"></i>
+                </button>
+
+                <button class="size-80 flex-center rounded-full js-slider3-next">
+                  <i class="icon-arrow-right text-24"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta -type-1">
+      <div class="cta__bg">
+        <img src="img/cta/4/1.png" alt="image">
+      </div>
+
+      <div class="container">
+        <div class="row justify-center text-center">
+          <div class="col-auto">
+            <h2 class="text-92 lg:text-64 md:text-30 text-white">
+              Luxury Awaits.<br class="lg:d-none"> Book Your Stay Today!
+            </h2>
+
+            <button class="button -md -type-2 bg-accent-2 -accent-1 mx-auto mt-40">BOOK NOW</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer -type-1 bg-accent-1 text-white">
+      <div class="footer__main">
+        <div class="container">
+          <div class="footer__grid">
+            <div class="">
+              <h4 class="text-30 fw-500 text-white">About Us</h4>
+
+              <div class="text-white-60 text-15 lh-17 mt-60 md:mt-20">
+                Duis vitae nulla at nisl finibus pharetra
+                Nunc porttitor sapien quis euismod.
+              </div>
+            </div>
+
+            <div class="">
+              <h4 class="text-30 fw-500 text-white">Contact</h4>
+
+              <div class="d-flex flex-column mt-60 md:mt-20">
+                <div class="">
+                  <a class="d-block text-15 text-white-60 lh-17" href="#">
+                    PO Box 16122 Collins StreetWest Victoria 8007 Australia
+                  </a>
+                </div>
+                <div class="mt-25">
+                  <a class="d-block text-15 text-white-60" href="#">
+                    info@swiss-resort.com
+                  </a>
+                </div>
+                <div class="mt-10">
+                  <a class="d-block text-15 text-white-60" href="#">
+                    +61 3 8376 6284
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <h4 class="text-30 fw-500 text-white">Links</h4>
+
+              <div class="row x-gap-50 y-gap-15">
+                <div class="col-sm-6">
+                  <div class="y-gap-15 text-15 text-white-60 mt-60 md:mt-20">
+
+                    <a class="d-block" href="#">
+                      About Hotel
+                    </a>
+
+                    <a class="d-block" href="#">
+                      Our Rooms
+                    </a>
+
+                    <a class="d-block" href="#">
+                      Restaurant &amp; Bar
+                    </a>
+
+                    <a class="d-block" href="#">
+                      Spa &amp; Wellness
+                    </a>
+
+                    <a class="d-block" href="#">
+                      Contact
+                    </a>
+
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="y-gap-15 text-15 text-white-60 mt-60 md:mt-20">
+
+                    <a class="d-block" href="#">
+                      Privacy Policy
+                    </a>
+
+                    <a class="d-block" href="#">
+                      Terms &amp; Conditions
+                    </a>
+
+                    <a class="d-block" href="#">
+                      Get Directions
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="">
+              <h4 class="text-30 fw-500 text-white">Newsletter Sign Up</h4>
+
+              <p class="text-15 text-white-60 mt-60 md:mt-20">Sign up for our news, deals and special offers.</p>
+
+              <div class="footer__newsletter mt-30">
+                <input type="Email" placeholder="Your email address">
+                <button><i class="icon-arrow-right text-white text-20"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row y-gap-30 justify-between md:justify-center items-center">
+            <div class="col-md-auto">
+              <div class="text-15 text-center text-white-60">Copyright © 2024 by CreativeLayers</div>
+            </div>
+
+            <div class="col-md-auto">
+              <div class="footer__bottom_center">
+                <div class="d-flex justify-center">
+                  <img src="img/general/logo-white.svg" alt="logo">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-auto">
+              <div class="row x-gap-25 y-gap-10 items-center justify-center">
+
+                <div class="col-auto">
+                  <a href="#" class="d-block text-white-60">
+                    <i class="icon-facebook text-11"></i>
+                  </a>
+                </div>
+
+                <div class="col-auto">
+                  <a href="#" class="d-block text-white-60">
+                    <i class="icon-twitter text-11"></i>
+                  </a>
+                </div>
+
+                <div class="col-auto">
+                  <a href="#" class="d-block text-white-60">
+                    <i class="icon-instagram text-11"></i>
+                  </a>
+                </div>
+
+                <div class="col-auto">
+                  <a href="#" class="d-block text-white-60">
+                    <i class="icon-linkedin text-11"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+  </main>
+
+  <!-- Bootstrap 5 js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="js/vendors.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
