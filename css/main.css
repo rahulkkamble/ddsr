@@ -12142,6 +12142,10 @@ textarea.resize-none {
   padding-top: 30px;
  }
 
+ .img-h-60 img{
+  height: 60px;
+ }
+
  /* .my-list li{
   list-style: inside;
  } */
