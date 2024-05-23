@@ -11983,6 +11983,7 @@ a:focus {
 footer {
   background: #212529;
 }
+
 /* Footer end */
 
 /* My form */
@@ -12128,6 +12129,7 @@ textarea.resize-none {
     width: 27vw;
   }
 }
+
 @media screen and (max-width: 440px) {
   .imgs-up-down img {
     width: 100%;
@@ -12138,14 +12140,26 @@ textarea.resize-none {
                                   MY CUSTOM
  ++++++++++++++++===============================================+++++++++++++++++*/
 
- .header .desktopNav .desktopNavSubnav{
+.header .desktopNav .desktopNavSubnav {
   padding-top: 30px;
- }
+}
 
- .img-h-60 img{
+.img-h-60 img {
   height: 60px;
- }
+}
 
- /* .my-list li{
+/* .my-list li{
   list-style: inside;
  } */
+
+.overlay-dark-1::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  right: 0;
+  z-index: 20;
+  height: calc(100% + 2px);
+  width: calc(100% + 2px);
+  background-color: #00000039;
+}
