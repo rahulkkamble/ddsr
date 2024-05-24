@@ -267,8 +267,14 @@
               </div>
 
               <div class="desktopNav__item">
-                <a href="#">
+                <a href="media_event.html">
                   MEDIA & EVENTS
+                  <!-- <i class="icon-chevron-down"></i> -->
+                </a>
+              </div>
+              <div class="desktopNav__item">
+                <a href="testimonial.html">
+                  TESTIMONIALS
                   <!-- <i class="icon-chevron-down"></i> -->
                 </a>
               </div>
@@ -512,7 +518,7 @@
       <div class="container">
         <div data-anim-wrap class="row y-gap-30 items-center">
           <div class="col-md-6">
-            <div class="projects row y-gap-50 justify-between pt-20 sm:pt-50">
+            <div class="projects row y-gap-50 justify-between sm:pt-20">
               <div data-anim-child="slide-up delay-2" class="px-1 px-md-3 col-12 border-bottom">
                 <div class="container">
                   <h2 class="text-50 px-1 px-md-3 md:text-40 lh-11 text-uppercase">
@@ -582,7 +588,7 @@
             <div class="mapouter shadow-sm rounded rounded-3"><!-- map -->
               <div class="gmap_canvas rounded rounded-3"><iframe class="gmap_iframe" width="100%" frameborder="0"
                   scrolling="no" marginheight="0" marginwidth="0"
-                  src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=asangaon, maharashtra&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+                  src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=Kalamboli, maharashtra&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
               </div>
             </div>
           </div>
@@ -1573,7 +1579,7 @@
       const mapIframe = document.querySelector('.gmap_iframe');
 
       projects.forEach(project => {
-        project.addEventListener('click', function () {
+        project.addEventListener('mouseover', function () {
           const city = this.getAttribute('data-city');
           const mapQuery = `https://maps.google.com/maps?width=600&height=500&hl=en&q=${encodeURIComponent(city)}&t=&z=14&ie=UTF8&iwloc=B&output=embed`;
           mapIframe.src = mapQuery;

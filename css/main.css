@@ -12201,3 +12201,13 @@ textarea.resize-none {
     transform: translateY(0px);
   }
 }
+
+.h-50vh{
+  height: 70vh !important;
+}
+
+@media screen and (max-width:640px) {
+  .h-50vh{
+    height: 50vh !important;
+  }
+}
