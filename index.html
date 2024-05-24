@@ -520,7 +520,7 @@
                   </h2>
                 </div>
               </div>
-              <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-4 col-6 project">
+              <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-4 col-6 project" data-city="Kalamboli">
                 <div class="iconCard -type-1 -hover-1 text-center">
                   <div class="iconCard__icon text-50">
                     <div class="iconCard__icon__circle bg-light-1"></div>
@@ -530,7 +530,7 @@
                 </div>
               </div>
 
-              <div data-anim-child="slide-up delay-5" class="col-lg-4 col-md-4 col-6 project">
+              <div data-anim-child="slide-up delay-5" class="col-lg-4 col-md-4 col-6 project" data-city="New Panvel">
                 <div class="iconCard -type-1 -hover-1 text-center">
                   <div class="iconCard__icon text-50">
                     <div class="iconCard__icon__circle bg-light-1"></div>
@@ -539,8 +539,7 @@
                   <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">New Panvel</h4>
                 </div>
               </div>
-
-              <div data-anim-child="slide-up delay-6" class="col-lg-4 col-md-4 col-6 project">
+              <div data-anim-child="slide-up delay-6" class="col-lg-4 col-md-4 col-6 project" data-city="Nerul">
                 <div class="iconCard -type-1 -hover-1 text-center">
                   <div class="iconCard__icon text-50">
                     <div class="iconCard__icon__circle bg-light-1"></div>
@@ -549,8 +548,7 @@
                   <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Nerul</h4>
                 </div>
               </div>
-
-              <div data-anim-child="slide-up delay-7" class="col-lg-4 col-md-4 col-6 project">
+              <div data-anim-child="slide-up delay-7" class="col-lg-4 col-md-4 col-6 project" data-city="Kharghar">
                 <div class="iconCard -type-1 -hover-1 text-center">
                   <div class="iconCard__icon text-50">
                     <div class="iconCard__icon__circle bg-light-1"></div>
@@ -559,8 +557,7 @@
                   <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Kharghar</h4>
                 </div>
               </div>
-
-              <div data-anim-child="slide-up delay-8" class="col-lg-4 col-md-4 col-6 project">
+              <div data-anim-child="slide-up delay-8" class="col-lg-4 col-md-4 col-6 project" data-city="Kamothe">
                 <div class="iconCard -type-1 -hover-1 text-center">
                   <div class="iconCard__icon text-50">
                     <div class="iconCard__icon__circle bg-light-1"></div>
@@ -569,8 +566,7 @@
                   <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Kamothe</h4>
                 </div>
               </div>
-
-              <div data-anim-child="slide-up delay-9" class="col-lg-4 col-md-4 col-6 project">
+              <div data-anim-child="slide-up delay-9" class="col-lg-4 col-md-4 col-6 project" data-city="Sanpada">
                 <div class="iconCard -type-1 -hover-1 text-center">
                   <div class="iconCard__icon text-50">
                     <div class="iconCard__icon__circle bg-light-1"></div>
@@ -586,8 +582,7 @@
             <div class="mapouter shadow-sm rounded rounded-3"><!-- map -->
               <div class="gmap_canvas rounded rounded-3"><iframe class="gmap_iframe" width="100%" frameborder="0"
                   scrolling="no" marginheight="0" marginwidth="0"
-                  src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=asangaon, maharashtra&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
-                  href="https://capcuttemplate.org/">Capcuttemplate.org</a>
+                  src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=asangaon, maharashtra&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
               </div>
             </div>
           </div>
@@ -1571,6 +1566,20 @@
         document.querySelectorAll("[data-anim-child^='img-right']").forEach(x => x.classList.add("is-in-view"));
       }, 10);
 
+    });
+
+    document.addEventListener("DOMContentLoaded", function () {
+      const projects = document.querySelectorAll('.project');
+      const mapIframe = document.querySelector('.gmap_iframe');
+
+      projects.forEach(project => {
+        project.addEventListener('click', function () {
+          const city = this.getAttribute('data-city');
+          const mapQuery = `https://maps.google.com/maps?width=600&height=500&hl=en&q=${encodeURIComponent(city)}&t=&z=14&ie=UTF8&iwloc=B&output=embed`;
+          mapIframe.src = mapQuery;
+          console.log(city)
+        });
+      });
     });
   </script>
 </body>
