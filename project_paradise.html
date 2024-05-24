@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en" data-x="html" data-x-toggle="html-overflow-hidden">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 imported for missing classes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/vendors.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>DDSR</title>
+</head>
+
+<body>
+    <div class="menuFullScreen js-menuFullScreen">
+        <div class="menuFullScreen__topMobile js-menuFullScreen-topMobile">
+          <div class="d-flex items-center text-white js-menuFullScreen-toggle">
+            <i class="icon-menu text-9"></i>
+            <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+          </div>
+    
+          <div class="mobile_menu_logo">
+            <a href="index.html"><img src="img/ddsrWhite.png" alt="logo"></a>
+          </div>
+        </div>
+    
+        <div class="menuFullScreen__mobile__bg js-menuFullScreen-mobile-bg"></div>
+    
+        <div class="menuFullScreen__left">
+          <div class="menuFullScreen__bg js-menuFullScreen-bg">
+            <img src="img/menu/bg.png" alt="image">
+          </div>
+    
+          <button class="menuFullScreen__close js-menuFullScreen-toggle js-menuFullScreen-close-btn">
+            <span class="icon">
+              <span></span>
+              <span></span>
+            </span>
+            CLOSE
+          </button>
+    
+          <div class="menuFullScreen-links js-menuFullScreen-links">
+    
+            <div class="menuFullScreen-links__item">
+              <a href="index.html">
+                HOME
+                <!-- <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i> -->
+              </a>
+            </div>
+            <div class="menuFullScreen-links__item">
+              <a href="about.html">
+                ABOUT
+              </a>
+            </div>
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <a href="javascript:void(0)">
+                PROJECTS
+                <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i>
+              </a>
+              <div class="menuFullScreen-links-subnav js-menuFullScreen-subnav">
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="project_heritage.html">ALL PROJECTS</a>
+                </div>
+                <div class="menuFullScreen-links-subnav__item">
+                  <a href="project_heritage.html">HERITAGE</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+              <a href="#">
+                MEDIA & EVENTS
+                <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i>
+              </a>
+            </div>
+    
+            <div class="menuFullScreen-links__item">
+              <a href="contact.html">
+                CONTACT
+              </a>
+            </div>
+          </div>
+        </div>
+    
+        <div class="menuFullScreen__right js-menuFullScreen-right">
+          <div class="text-center">
+            <div class="mb-100">
+              <img src="img/ddsrWhite.png" alt="image">
+            </div>
+    
+            <div class="text-sec lh-11 fw-500 text-40">
+              DDSR GROUP
+            </div>
+    
+            <div class="mt-40">
+              <div class="text-30 text-sec fw-500">
+                Location
+              </div>
+              <div class="mt-10">
+                PO Box 16122 Collins Street West<br>
+                Victoria 8007 Australia
+              </div>
+            </div>
+    
+            <div class="mt-40">
+              <div class="text-30 text-sec fw-500">
+                Phone Support
+              </div>
+              <div class="mt-10">
+                <div>
+                  <a href="#">+ 91 345 647 745</a>
+                </div>
+                <div>
+                  <a href="#">info@ddsrgroup.com</a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="mt-40">
+              <div class="text-30 text-sec fw-500">
+                Connect With Us
+              </div>
+              <div class="mt-10">
+                <a href="#">+ 91 345 647 745</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="menuFullScreen__bottomMobile js-menuFullScreen-buttomMobile">
+    
+          <a href="#" class="d-flex items-center mt-40">
+            <i class="icon-phone mr-10"></i>
+            <span>+91-96567-7854</span>
+          </a>
+    
+          <a href="#" class="d-flex mt-20">
+            <i class="icon-map mr-10"></i>
+            <span>
+              PO Box 16122 Collins Street West,
+              Australia
+            </span>
+          </a>
+    
+          <a href="#" class="d-flex items-center mt-20">
+            <i class="icon-mail mr-10"></i>
+            <span>info@ddsrgroup.com</span>
+          </a>
+        </div>
+      </div>
+
+
+    <!-- cursor start -->
+    <div class="cursor js-cursor">
+        <div class="cursor__wrapper">
+            <div class="cursor__follower js-follower"></div>
+            <div class="cursor__label js-label"></div>
+            <div class="cursor__icon js-icon"></div>
+        </div>
+    </div>
+    <!-- cursor end -->
+
+    <main>
+        <!-- DESKTOP HEADERS -->
+        <header class="header -mx-60 js-header" data-add-bg="bg-dark-2" data-x="header" data-x-toggle="-is-menu-opened"
+            data-anim="fade delay-3">
+            <div class="header__container py-50">
+                <div class="headerMobile__left">
+                    <div class="d-none lg:d-flex text-white items-center js-menuFullScreen-toggle">
+                        <i class="icon-menu text-9"></i>
+                        <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+                    </div>
+
+                    <div class="text-white lg:d-none">
+                        <div class="desktopNav">
+                            <div class="desktopNav__item">
+                                <a href="index.html">
+                                    Home
+                                    <!-- <i class="icon-chevron-down"></i> -->
+                                </a>
+
+                                <!-- <div class="desktopNavSubnav">
+                  <div class="desktopNavSubnav__content">
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="index.html">Home 01</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 02</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 03</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 04</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 05</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 06</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 07</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 08</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 09</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Home 10</a>
+                    </div>
+
+                  </div>
+                </div> -->
+                            </div>
+
+                            <div class="desktopNav__item">
+                                <a href="about.html">
+                                    About
+                                    <!-- <i class="icon-chevron-down"></i> -->
+                                </a>
+                            </div>
+
+                            <div class="desktopNav__item">
+                                <a href="projects.html">
+                                    PROJECTS <i class="icon-chevron-down"></i>
+                                </a>
+
+                                <div class="desktopNavSubnav">
+                                    <div class="desktopNavSubnav__content py-2 -col-3">
+                                        <div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_heritage.html">Heritage</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- <div class="desktopNav__item">
+                <a href="#">
+                  Pages <i class="icon-chevron-down"></i>
+                </a>
+
+                <div class="desktopNavSubnav">
+                  <div class="desktopNavSubnav__content">
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">About</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Contact</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Booking</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Cart</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Checkout</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">FAQ</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Pricing</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Terms</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="">Invoice</a>
+                    </div>
+
+                    <div class="desktopNavSubnav__item">
+                      <a href="404.html">404 page</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div> -->
+
+                            <div class="desktopNav__item">
+                                <a href="#">
+                                    MEDIA & EVENTS <i class="icon-chevron-down"></i>
+                                </a>
+                            </div>
+
+                            <div class="desktopNav__item d-none">
+                                <a href="contact.html">
+                                    Contact
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="header__center">
+                    <div class="header__logo text-center">
+                        <a href="index.html"><img src="img/ddsrWhite.png" alt="logo"></a>
+                    </div>
+                </div>
+
+                <div class="header__right d-flex items-center h-full">
+                    <button class="button text-white mr-60 lg:d-none">
+                        <i class="icon-phone mr-15"></i>
+                        +91-96567-7854
+                    </button>
+
+                    <div class="desktopNav__item text-white">
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <section data-anim-wrap class="pageHero -type-2">
+            <div data-anim-child="img-right cover-white delay-1" class="overlay-dark-1 pageHero__bg">
+                <img src="img/AboutUs/About_Cover.jpg" alt="image">
+            </div>
+
+            <div class="container">
+                <div class="row justify-center">
+                    <div class="col-auto">
+                        <div class="pageHero__content text-center" data-split='lines'
+                            data-anim-child="split-lines delay-3">
+                            <div class="pageHero__subtitle text-white">2024</div>
+                            <h1 class="pageHero__title text-white">DDSR Heritage</h1>
+                            <p class="pageHero__text text-white">Khamothe, Navi Mumbai</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="layout-pt-md layout-pb-lg">
+            <div class="container">
+                <div class="row y-gap-40 justify-between">
+                    <div class="col-xl-7 col-lg-7">
+                        <h2 class="fw-600 mb-30 md:mb-20">14 Storey tower</h2>
+
+                        <div class="fw-500 mb-30 md:mb-20">Plot No.13 Sector 32, Khamothe, Navi Mumbai</div>
+                        <p>
+                            Architect: Satish Ahuja | R. C. C. Consultant: S. R. Consultants
+                        </p>
+
+                        <div class="d-none line -horizontal bg-border mt-50 mb-50"></div>
+                        <h2 class="d-none text-40">Availability</h2>
+
+                        <div class="d-none js-calendar pt-40">
+                            <div class="searchMenu-date -searchForm js-calendar-el" data-slider-cols-2="true">
+                                <div class="searchMenu-date__field shadow-2">
+                                    <div class="rounded-4">
+                                        <div class="elCalendar js-calendar-el-calendar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="line -horizontal bg-border mt-50 mb-50"></div>
+
+
+                        <h2 class="text-40">Amenities</h2>
+                        <div class="row x-gap-50 y-gap-20 pt-40">
+                            <div class="col-sm-6">
+                                <ul class="ulList text-21 -type-1">
+                                    <li>Clubhouse</li>
+                                    <li>Gymnasium</li>
+                                    <li>Children’s Playground</li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <ul class="ulList text-21 -type-1">
+                                    <li>Indoor Games</li>
+                                    <li>24/7 Security Surveillance</li>
+                                    <li>Elevated Car Parking.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                        <div class="line -horizontal bg-border mt-50 mb-50"></div>
+                        <h2 class="text-40">Location Advantage</h2>
+                        <ul class="ulList text-21 -type-1 pt-40">
+                            <li>Mansarovar Railway Station - Near By</li>
+                            <li>Schools & Colleges- Near By</li>
+                            <li>D Mart - Near By</li>
+                            <li>Hospitals - Near By</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="sidebar -rooms-single px-40 py-40 md:px-30 md:py-30 border-1 shadow-1">
+
+                            <div class="container">
+                                <div class="row justify-center text-center">
+                                    <div class="col-12">
+                                        <div class="mb-30">
+                                            <svg width="25" height="25" viewBox="0 0 50 50" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_632_5288)">
+                                                    <path
+                                                        d="M47.9511 0.57683C45.9935 -0.55357 43.4816 0.119689 42.3516 2.07726L36.7643 11.7548H24.7149C24.1755 11.7548 23.7383 12.1921 23.7383 12.7313C23.7383 13.2706 24.1755 13.7079 24.7149 13.7079H35.6366L31.5821 20.7308H8.78948C8.25011 20.7308 7.81289 21.1681 7.81289 21.7073C7.81289 22.2467 8.25011 22.6839 8.78948 22.6839H30.4543L28.199 26.5903H8.78948C8.25011 26.5903 7.81289 27.0276 7.81289 27.5669C7.81289 28.1061 8.25011 28.5435 8.78948 28.5435H27.795L27.3742 32.4498H8.78948C8.25011 32.4498 7.81289 32.8871 7.81289 33.4264C7.81289 33.9657 8.25011 34.403 8.78948 34.403H27.1638L27.1118 34.8853C27.0704 35.2697 27.2597 35.6424 27.5944 35.8356C27.7461 35.9232 27.9146 35.9665 28.0826 35.9665C28.2857 35.9665 28.488 35.9033 28.6588 35.7785L34.8944 31.2232C35.0043 31.1429 35.0961 31.0407 35.1641 30.9229L42.7745 17.7414V36.6703C42.7745 38.8585 40.9943 40.6388 38.8061 40.6388H16.1736C15.8246 40.6388 15.5022 40.8249 15.3278 41.1271L11.913 47.0418L8.49817 41.1271C8.32375 40.8249 8.00138 40.6388 7.65244 40.6388H5.92164C3.7334 40.6388 1.95317 38.8585 1.95317 36.6703V17.6764C1.95317 15.4882 3.7334 13.7079 5.92164 13.7079H15.9257C16.4651 13.7079 16.9023 13.2706 16.9023 12.7313C16.9023 12.192 16.4651 11.7548 15.9257 11.7548H5.92164C2.65642 11.7548 0 14.4112 0 17.6764V36.6703C0 39.9355 2.65642 42.592 5.92164 42.592H7.08856L11.0673 49.4832C11.2417 49.7854 11.5641 49.9715 11.913 49.9715C12.2619 49.9715 12.5843 49.7854 12.7587 49.4832L16.7374 42.592H38.8062C42.0714 42.592 44.7278 39.9355 44.7278 36.6703V17.6764C44.7278 16.8393 44.5503 16.0123 44.2107 15.2541L49.4516 6.17648C50.5818 4.21901 49.9087 1.70703 47.9511 0.57683ZM46.9745 2.26828C47.9994 2.85999 48.3517 4.17507 47.76 5.1999L47.202 6.16643L43.485 4.02037L44.043 3.05385C44.6347 2.02911 45.9497 1.67686 46.9745 2.26828ZM29.7203 28.9075L32.5315 30.5306L29.2904 32.8984L29.7203 28.9075ZM33.9609 29.1006L30.2439 26.9545L42.5084 5.71182L46.2254 7.85787L33.9609 29.1006Z"
+                                                        fill="#122223" />
+                                                    <path
+                                                        d="M20.3203 13.708C20.5771 13.708 20.8291 13.6035 21.0117 13.4219C21.1934 13.2402 21.2979 12.9883 21.2979 12.7314C21.2979 12.4746 21.1934 12.2227 21.0117 12.041C20.8291 11.8595 20.5781 11.7549 20.3203 11.7549C20.0635 11.7549 19.8115 11.8594 19.6299 12.041C19.4482 12.2227 19.3447 12.4746 19.3447 12.7314C19.3447 12.9883 19.4481 13.2402 19.6299 13.4219C19.8125 13.6035 20.0635 13.708 20.3203 13.708Z"
+                                                        fill="#122223" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_632_5288">
+                                                        <rect width="50" height="50" fill="white" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </div>
+
+                                        <div class="text-15 uppercase mb-20">Get In touch</div>
+                                        <h2 class="text-40 md:text-21 capitalize">Leave us your info</h2>
+                                        <p class="lh-17 mt-30">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porttitor
+                                            tellus vel mauris scelerisque accumsan.
+                                        </p>
+
+                                        <div class="contactForm row y-gap-30 pt-60">
+                                            <div class="col-12">
+
+                                                <div class="form-input ">
+                                                    <input type="text" required class="">
+                                                    <label class="lh-1 text-16 text-light-1">First Name</label>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-12">
+
+                                                <div class="form-input ">
+                                                    <input type="text" required class="">
+                                                    <label class="lh-1 text-16 text-light-1">Last Name</label>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-12">
+
+                                                <div class="form-input ">
+                                                    <input type="email" required class="">
+                                                    <label class="lh-1 text-16 text-light-1">Email</label>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-12">
+
+                                                <div class="form-input ">
+                                                    <textarea required class="border-1" rows="8"></textarea>
+                                                    <label class="lh-1 ">Comment</label>
+                                                </div>
+
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="button -md -type-2 w-1/1 bg-accent-2 -accent-1">SEND YOUR
+                                                    MESSAGE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="layout-pt-lg layout-pb-lg bg-accent-1">
+            <div class="container">
+                <div class="row justify-center text-center">
+                    <div class="col-auto">
+                        <div class="text-15 uppercase text-white mb-30 sm:mb-10">EXPLORE</div>
+                        <h2 class="text-64 md:text-40 text-white">Gallery</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative container">
+                <div class="row justify-center pt-100 sm:pt-50">
+                    <div class="col-lg-10 col-md-11">
+                        <div class="ss-scale-2 js-section-slider" data-gap="100"
+                            data-slider-cols="xl-1 lg-1 md-1 sm-1 base-1" data-loop data-nav-prev="js-slider1-prev"
+                            data-nav-next="js-slider1-next" data-pagination="js-slider1-pagination">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="ratio ratio-16:9">
+                                        <img src="img/about/20/1.png" alt="image" class="img-ratio">
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="ratio ratio-16:9">
+                                        <img src="img/about/20/2.png" alt="image" class="img-ratio">
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="ratio ratio-16:9">
+                                        <img src="img/about/20/3.png" alt="image" class="img-ratio">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-between items-center pt-100 sm:pt-50">
+                    <div class="col-auto">
+                        <button
+                            class="button -outline-white size-80 md:size-60 flex-center text-white rounded-full js-slider1-prev">
+                            <i class="icon-arrow-left text-24 md:text-19"></i>
+                        </button>
+                    </div>
+
+                    <div class="col-auto">
+                        <div class="pagination -type-1 -light js-slider1-pagination"></div>
+                    </div>
+
+                    <div class="col-auto">
+                        <button
+                            class="button -outline-white size-80 md:size-60 flex-center text-white rounded-full js-slider1-next">
+                            <i class="icon-arrow-right text-24 md:text-19"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-anim-wrap class="layout-pt-lg layout-pb-lg">
+            <div class="container">
+                <div class="row justify-center text-center">
+                    <div class="col-auto">
+                        <div data-anim-child="slide-up delay-2" class="mb-40">
+                            <svg width="45" height="44" viewBox="0 0 45 44" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_428_953)">
+                                    <path
+                                        d="M9.67883 38C6.64234 38 4.27007 36.9524 2.56204 34.8571C0.854015 32.6667 0 29.4286 0 25.1429C0 20.6667 0.99635 16.381 2.98905 12.2857C5.07664 8.19048 8.01825 4.14286 11.8139 0.142864C11.9088 0.0476213 12.0511 0 12.2409 0C12.5255 0 12.7153 0.142858 12.8102 0.428574C13 0.619048 13.0474 0.857143 12.9526 1.14286C10.6752 4.19048 9.10949 7.14286 8.25548 10C7.49635 12.7619 7.11679 15.8571 7.11679 19.2857C7.11679 21.8571 7.44891 23.8571 8.11314 25.2857C8.77737 26.7143 9.67883 28 10.8175 29.1429L5.40876 30.1429C5.31387 28.5238 5.74088 27.2857 6.68978 26.4286C7.73358 25.5714 9.06205 25.1429 10.6752 25.1429C12.6679 25.1429 14.1861 25.7143 15.2299 26.8571C16.3686 28 16.938 29.5714 16.938 31.5714C16.938 33.6667 16.2737 35.2857 14.9453 36.4286C13.7117 37.4762 11.9562 38 9.67883 38ZM31.5985 38C28.562 38 26.1898 36.9524 24.4818 34.8571C22.8686 32.6667 22.062 29.4286 22.062 25.1429C22.062 20.5714 23.0584 16.2381 25.0511 12.1429C27.0438 8.04762 29.9854 4.04762 33.8759 0.142864C33.9708 0.0476213 34.1131 0 34.3029 0C34.5876 0 34.7774 0.142858 34.8723 0.428574C35.062 0.619048 35.1095 0.857143 35.0146 1.14286C32.7372 4.19048 31.1715 7.14286 30.3175 10C29.5584 12.7619 29.1788 15.8571 29.1788 19.2857C29.1788 21.8571 29.4635 23.9048 30.0328 25.4286C30.6971 26.8571 31.5985 28.0952 32.7372 29.1429L27.4708 30.1429C27.3759 28.5238 27.8029 27.2857 28.7518 26.4286C29.7007 25.5714 31.0292 25.1429 32.7372 25.1429C34.7299 25.1429 36.2482 25.7143 37.292 26.8571C38.4307 28 39 29.5714 39 31.5714C39 33.6667 38.3358 35.2857 37.0073 36.4286C35.7737 37.4762 33.9708 38 31.5985 38Z"
+                                        fill="#122223" />
+                                </g>
+                                <defs>
+                                    <filter id="filter0_d_428_953" x="0" y="0" width="45" height="44"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feOffset dx="6" dy="6" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_428_953" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_428_953"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div data-split='lines' data-anim-child="split-lines delay-3">
+                            <div class="text-15 uppercase mb-30 sm:mb-15">VOICE FROM OUR GUESTS</div>
+                            <h2 class="text-64 md:text-40 lh-065">Testimonials</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative container">
+                <div class="row justify-center pt-100 sm:pt-50">
+                    <div class="col-xl-8 col-lg-10">
+                        <div class="overflow-hidden js-testimonialsSlider-1">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div data-split='lines' data-anim-child="split-lines delay-4" class="text-center">
+                                        <div class="text-sec text-40 md:text-24">
+                                            “Some places are so good to stay in, you don&#39;t want to generate a rush
+                                            on them. The Swiss Resort lodge hotel in London is one of them.”
+                                        </div>
+                                        <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-split='lines' data-anim-child="split-lines delay-4" class="text-center">
+                                        <div class="text-sec text-40 md:text-24">
+                                            “Some places are so good to stay in, you don&#39;t want to generate a rush
+                                            on them. The Swiss Resort lodge hotel in London is one of them.”
+                                        </div>
+                                        <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-split='lines' data-anim-child="split-lines delay-4" class="text-center">
+                                        <div class="text-sec text-40 md:text-24">
+                                            “Some places are so good to stay in, you don&#39;t want to generate a rush
+                                            on them. The Swiss Resort lodge hotel in London is one of them.”
+                                        </div>
+                                        <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-split='lines' data-anim-child="split-lines delay-4" class="text-center">
+                                        <div class="text-sec text-40 md:text-24">
+                                            “Some places are so good to stay in, you don&#39;t want to generate a rush
+                                            on them. The Swiss Resort lodge hotel in London is one of them.”
+                                        </div>
+                                        <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div data-split='lines' data-anim-child="split-lines delay-4" class="text-center">
+                                        <div class="text-sec text-40 md:text-24">
+                                            “Some places are so good to stay in, you don&#39;t want to generate a rush
+                                            on them. The Swiss Resort lodge hotel in London is one of them.”
+                                        </div>
+                                        <div class="mt-50">Ali Tufan - Trip Advisor</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div data-anim-child="slide-up delay-3" class="navAbsolute">
+                                <button class="size-80 flex-center rounded-full js-testimonialsSlider-1-prev">
+                                    <i class="icon-arrow-left text-24"></i>
+                                </button>
+
+                                <button class="size-80 flex-center rounded-full js-testimonialsSlider-1-next">
+                                    <i class="icon-arrow-right text-24"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div data-anim-child="slide-up delay-3"
+                    class="testimonialsPagination -type-1 pt-100 js-testimonialsSlider-1-pagination">
+
+                    <div class="testimonialsPagination__item is-active">
+                        <div>
+                            <div class="-circle-2 bg-accent-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="testimonialsPagination__item ">
+                        <div>
+                            <div class="-circle-2 bg-accent-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="testimonialsPagination__item ">
+                        <div>
+                            <div class="-circle-2 bg-accent-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="testimonialsPagination__item ">
+                        <div>
+                            <div class="-circle-2 bg-accent-2"></div>
+                        </div>
+                    </div>
+
+                    <div class="testimonialsPagination__item ">
+                        <div>
+                            <div class="-circle-2 bg-accent-2"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="layout-pt-lg layout-pb-lg bg-light-1">
+            <div data-anim-wrap class="container">
+                <div class="row y-gap-30 justify-between items-end">
+                    <div data-anim-child="slide-up delay-1" class="col-auto">
+                        <div class="text-15 uppercase mb-30 sm:mb-10">EXPLORE</div>
+                        <h2 class="text-64 md:text-40 lh-065">Similar Projects</h2>
+                    </div>
+
+                    <div data-anim-child="slide-up delay-1" class="col-auto">
+                        <button class="button -type-1">
+                            <i class="-icon icon-arrow-circle-right text-30"></i>
+                            VIEW ALL MORE
+                        </button>
+                    </div>
+                </div>
+
+                <div class="relative mt-100 sm:mt-50">
+                    <div class="overflow-hidden js-section-slider" data-gap="30"
+                        data-slider-cols="xl-3 lg-3 md-2 sm-1 base-1" data-nav-prev="js-slider2-prev"
+                        data-nav-next="js-slider2-next">
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div data-anim="slide-up delay-1">
+                                    <a href="javascript:void(0)" class="roomCard -type-2 -hover-button-center">
+                                        <div
+                                            class="roomCard__image -no-rounded ratio ratio-45:54 -hover-button-center__wrap">
+                                            <img src="img/UPCOMING/DREAMWOOD.jpg" alt="image" class="img-ratio">
+
+                                            <div class="roomCard__price text-15 fw-500 bg-whit text-accent-1 rounded-0">
+                                                2024</div>
+
+                                            <div
+                                                class="-hover-button-center__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
+                                                <span class="text-15 fw-500 text-white">Explore</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="roomCard__content mt-30">
+                                            <div class="d-flex justify-between items-end">
+                                                <h3 class="roomCard__title lh-11 text-40 md:text-24">DDSR Dreamwood</h3>
+                                            </div>
+
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    G+15 Storey tower
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Plot No.22,23,24,25,26, Sector 13, Nerul, Navi Mumbai - 410 206.
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Architect: Satish Ahuja | R. C. C. Consultant: S. R. Consultants
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div data-anim="slide-up delay-3">
+                                    <a href="javascript:void(0)" class="roomCard -type-2 -hover-button-center">
+                                        <div
+                                            class="roomCard__image -no-rounded ratio ratio-45:54 -hover-button-center__wrap">
+                                            <img src="img/UPCOMING/DDSR_PRide.jpg" alt="image" class="img-ratio">
+
+                                            <div class="roomCard__price text-15 fw-500 bg-whit text-accent-1 rounded-0">
+                                                2024</div>
+
+                                            <div
+                                                class="-hover-button-center__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
+                                                <span class="text-15 fw-500 text-white">Explore</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="roomCard__content mt-30">
+                                            <div class="d-flex justify-between items-end">
+                                                <h3 class="roomCard__title lh-11 text-40 md:text-24">DDSR Pride CHS
+                                                </h3>
+                                            </div>
+
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    G+14 storey tower
+
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Plot No. 2C, Sector 13, New Panvel, Navi Mumbai - 410 206.
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Architect: Satish Ahuja | R. C. C. Consultant: S. R. Consultants
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div data-anim="slide-up delay-5">
+                                    <a href="javascript:void(0)" class="roomCard -type-2 -hover-button-center">
+                                        <div
+                                            class="roomCard__image -no-rounded ratio ratio-45:54 -hover-button-center__wrap">
+                                            <img src="img/UPCOMING/Ajinkyans_Mumbai.jpg" alt="image" class="img-ratio">
+
+                                            <div class="roomCard__price text-15 fw-500 bg-whit text-accent-1 rounded-0">
+                                                2024</div>
+
+                                            <div
+                                                class="-hover-button-center__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
+                                                <span class="text-15 fw-500 text-white">Explore</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="roomCard__content mt-30">
+                                            <div class="d-flex justify-between items-end">
+                                                <h3 class="roomCard__title lh-11 text-40 md:text-24">DDSR Mumbai
+                                                    Ajinkanys
+                                                </h3>
+                                            </div>
+
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    G+20 storey tower
+
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Sector 19, Kharghar, Navi Mumbai
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Architect: Satish Ahuja | R. C. C. Consultant: S. R. Consultants
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div data-anim="slide-up delay-7">
+                                    <a href="javascript:void(0)" class="roomCard -type-2 -hover-button-center">
+                                        <div
+                                            class="roomCard__image -no-rounded ratio ratio-45:54 -hover-button-center__wrap">
+                                            <img src="img/cards/rooms/2/1.png" alt="image" class="img-ratio">
+
+                                            <div class="roomCard__price text-15 fw-500 bg-whit text-accent-1 rounded-0">
+                                                2024</div>
+
+                                            <div
+                                                class="-hover-button-center__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
+                                                <span class="text-15 fw-500 text-white">Explore</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="roomCard__content mt-30">
+                                            <div class="d-flex justify-between items-end">
+                                                <h3 class="roomCard__title lh-11 text-40 md:text-24">DDSR Paradise</h3>
+                                            </div>
+
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    G+6 storey Towers
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Plot No. 67 + 68, New Panvel, Navi Mumbai
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Architect: Satish Ahuja | R. C. C. Consultant: S. R. Consultants
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div data-anim="slide-up delay-9">
+                                    <a href="javascript:void(0)" class="roomCard -type-2 -hover-button-center">
+                                        <div
+                                            class="roomCard__image -no-rounded ratio ratio-45:54 -hover-button-center__wrap">
+                                            <img src="img/cards/rooms/2/1.png" alt="image" class="img-ratio">
+
+                                            <div class="roomCard__price text-15 fw-500 bg-whit text-accent-1 rounded-0">
+                                                2024</div>
+
+                                            <div
+                                                class="-hover-button-center__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
+                                                <span class="text-15 fw-500 text-white">Explore</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="roomCard__content mt-30">
+                                            <div class="d-flex justify-between items-end">
+                                                <h3 class="roomCard__title lh-11 text-40 md:text-24">Ekta Vihar CHS LTD
+                                                </h3>
+                                            </div>
+
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    G+7 Storey Towers
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Plot No. 6B/1, Sector 11, Kalamboli, Navi Mumbai
+                                                </div>
+                                            </div>
+                                            <div class="d-flex x-gap-30 pt-30">
+                                                <div class="d-flex items-cen text-accent-1">
+                                                    <i class="icon-size text-20 mt-1 mr-10"></i>
+                                                    Architech: Satish Ahuja | R. C. C. Consultant: S. R. Consultants
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="navAbsolute -type-2">
+                        <button
+                            class="button -outline-accent-1 size-80 md:size-60 flex-center rounded-full js-slider2-prev">
+                            <i class="icon-arrow-left text-24"></i>
+                        </button>
+
+                        <button
+                            class="button -outline-accent-1 size-80 md:size-60 flex-center rounded-full js-slider2-next">
+                            <i class="icon-arrow-right text-24"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- new footer -->
+        <!-- FOOTER -->
+        <footer class="w-100 my-footer py-4 flex-shrink-0">
+            <div class="container py-4">
+                <div class="row gy-4 gx-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h1 text-white">DDSR Group</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor
+                            incididunt.</p>
+                        <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary"
+                                href="#"></a></p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Quick links</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Quick links</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-3">Newsletter</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor
+                            incididunt.</p>
+                        <form action="#" class="d-none">
+                            <div class="input-group mb-3">
+                                <input class="form-control" type="text" placeholder="Recipient's username"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-primary" id="button-addon2" type="button"><i
+                                        class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    </main>
+
+    <!-- JavaScript -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM"></script> -->
+    <!-- <script src="../../../unpkg.com/%40googlemaps/markerclusterer%402.5.3/dist/index.min.js"></script> -->
+
+    <!-- Bootstrap 5 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/link_whatsapp.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.2/dist/gsap.min.js"></script>
+    <script>
+        $(".tabs__button").on("click", function () {
+            document.querySelectorAll("[data-anim-child^='img-right']").forEach(x => x.classList.remove("is-in-view"));
+            setTimeout(() => {
+                document.querySelectorAll("[data-anim-child^='img-right']").forEach(x => x.classList.add("is-in-view"));
+            }, 10);
+
+        });
+    </script>
+</body>
+
+</html>

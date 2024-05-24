@@ -22,6 +22,25 @@
   <link rel="stylesheet" href="css/main.css">
 
   <title>DDSR</title>
+  <style>
+    .mapouter {
+      position: relative;
+      text-align: right;
+      width: 100%;
+      height: 550px;
+    }
+
+    .gmap_canvas {
+      overflow: hidden;
+      background: none !important;
+      width: 100%;
+      height: 550px;
+    }
+
+    .gmap_iframe {
+      height: 550px !important;
+    }
+  </style>
 </head>
 
 <body>
@@ -193,60 +212,12 @@
               <div class="desktopNav__item">
                 <a href="index.html">
                   Home
-                  <!-- <i class="icon-chevron-down"></i> -->
                 </a>
-
-                <!-- <div class="desktopNavSubnav">
-                  <div class="desktopNavSubnav__content">
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="index.html">Home 01</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 02</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 03</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 04</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 05</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 06</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 07</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 08</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 09</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Home 10</a>
-                    </div>
-
-                  </div>
-                </div> -->
               </div>
 
               <div class="desktopNav__item">
                 <a href="about.html">
                   About
-                  <!-- <i class="icon-chevron-down"></i> -->
                 </a>
               </div>
 
@@ -259,68 +230,46 @@
                   <div class="desktopNavSubnav__content py-2 -col-3">
                     <div>
                       <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="projects.html">Upcoming</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_paradise.html">Paradise</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
                         <a href="project_heritage.html">Heritage</a>
+                      </div>
+
+                    </div>
+                    <div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="projects.html">Ongoing</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heights.html">Heights</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_maitri.html">Maitri</a>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="projects.html">Completed</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heritage.html">Shree Siddhivinayak</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heritage.html">Shree Sai</a>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
 
-              <!-- <div class="desktopNav__item">
-                <a href="#">
-                  Pages <i class="icon-chevron-down"></i>
-                </a>
-
-                <div class="desktopNavSubnav">
-                  <div class="desktopNavSubnav__content">
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">About</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Contact</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Booking</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Cart</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Checkout</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">FAQ</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Pricing</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Terms</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="">Invoice</a>
-                    </div>
-
-                    <div class="desktopNavSubnav__item">
-                      <a href="404.html">404 page</a>
-                    </div>
-
-                  </div>
-                </div>
-              </div> -->
-
               <div class="desktopNav__item">
                 <a href="#">
-                  MEDIA & EVENTS <i class="icon-chevron-down"></i>
+                  MEDIA & EVENTS
+                  <!-- <i class="icon-chevron-down"></i> -->
                 </a>
               </div>
 
@@ -557,6 +506,95 @@
         <div class="pagination -type-number d-flex items-center fw-500 text-white pt-50 md:pt-30 js-number-pag"></div>
       </div>
     </section>
+
+    <!-- Map -->
+    <section class="layout-pt-lg layout-pb-md">
+      <div class="container">
+        <div data-anim-wrap class="row y-gap-30 items-center">
+          <div class="col-md-6">
+            <div class="projects row y-gap-50 justify-between pt-20 sm:pt-50">
+              <div data-anim-child="slide-up delay-2" class="px-1 px-md-3 col-12 border-bottom">
+                <div class="container">
+                  <h2 class="text-50 px-1 px-md-3 md:text-40 lh-11 text-uppercase">
+                    Projects
+                  </h2>
+                </div>
+              </div>
+              <div data-anim-child="slide-up delay-4" class="col-lg-4 col-md-4 col-6 project">
+                <div class="iconCard -type-1 -hover-1 text-center">
+                  <div class="iconCard__icon text-50">
+                    <div class="iconCard__icon__circle bg-light-1"></div>
+                    <i class="icon-map"></i>
+                  </div>
+                  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Kalamboli</h4>
+                </div>
+              </div>
+
+              <div data-anim-child="slide-up delay-5" class="col-lg-4 col-md-4 col-6 project">
+                <div class="iconCard -type-1 -hover-1 text-center">
+                  <div class="iconCard__icon text-50">
+                    <div class="iconCard__icon__circle bg-light-1"></div>
+                    <i class="icon-map"></i>
+                  </div>
+                  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">New Panvel</h4>
+                </div>
+              </div>
+
+              <div data-anim-child="slide-up delay-6" class="col-lg-4 col-md-4 col-6 project">
+                <div class="iconCard -type-1 -hover-1 text-center">
+                  <div class="iconCard__icon text-50">
+                    <div class="iconCard__icon__circle bg-light-1"></div>
+                    <i class="icon-map"></i>
+                  </div>
+                  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Nerul</h4>
+                </div>
+              </div>
+
+              <div data-anim-child="slide-up delay-7" class="col-lg-4 col-md-4 col-6 project">
+                <div class="iconCard -type-1 -hover-1 text-center">
+                  <div class="iconCard__icon text-50">
+                    <div class="iconCard__icon__circle bg-light-1"></div>
+                    <i class="icon-map"></i>
+                  </div>
+                  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Kharghar</h4>
+                </div>
+              </div>
+
+              <div data-anim-child="slide-up delay-8" class="col-lg-4 col-md-4 col-6 project">
+                <div class="iconCard -type-1 -hover-1 text-center">
+                  <div class="iconCard__icon text-50">
+                    <div class="iconCard__icon__circle bg-light-1"></div>
+                    <i class="icon-map"></i>
+                  </div>
+                  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Kamothe</h4>
+                </div>
+              </div>
+
+              <div data-anim-child="slide-up delay-9" class="col-lg-4 col-md-4 col-6 project">
+                <div class="iconCard -type-1 -hover-1 text-center">
+                  <div class="iconCard__icon text-50">
+                    <div class="iconCard__icon__circle bg-light-1"></div>
+                    <i class="icon-map"></i>
+                  </div>
+                  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Sanpada</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div data-anim-child="img-right cover-light-1 delay-1" class="col-md-5 offset-md-1">
+            <div class="mapouter shadow-sm rounded rounded-3"><!-- map -->
+              <div class="gmap_canvas rounded rounded-3"><iframe class="gmap_iframe" width="100%" frameborder="0"
+                  scrolling="no" marginheight="0" marginwidth="0"
+                  src="https://maps.google.com/maps?width=600&amp;height=500&amp;hl=en&amp;q=asangaon, maharashtra&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                  href="https://capcuttemplate.org/">Capcuttemplate.org</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map end -->
     <!-- Second Slide - overview -->
     <section class="about -type-1 layout-pt-lg">
       <div data-anim-wrap class="container">
@@ -585,7 +623,7 @@
             <div class="col-xl-9 col-lg-10">
               <div data-split='lines' data-anim-child="split-lines delay-7">
                 <h2 class="about__title text-72 text-uppercase">
-                  A Legacy of Trust &  <br> Excellence
+                  A Legacy of Trust & <br> Excellence
                 </h2>
                 <p class="lh-18 text-21">
                   With architectural brilliance, and excellence in interior design, provided a new lifestyle and
@@ -1523,7 +1561,7 @@
 
   <script src="js/vendors.js"></script>
   <script src="js/main.js"></script>
-<script src="js/link_whatsapp.js"></script>
+  <script src="js/link_whatsapp.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script>
