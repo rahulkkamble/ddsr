@@ -9,7 +9,9 @@
   <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com/">
   <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap"
+    rel="stylesheet">
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/vendors.css">
@@ -173,35 +175,116 @@
 
   <main>
 
+    <!-- DESKTOP HEADERS -->
+    <header class="header -mx-60 js-header" data-add-bg="bg-dark-2" data-x="header" data-x-toggle="-is-menu-opened"
+      data-anim="fade delay-3">
+      <div class="header__container py-50">
+        <div class="headerMobile__left">
+          <div class="d-none lg:d-flex text-white items-center js-menuFullScreen-toggle">
+            <i class="icon-menu text-9"></i>
+            <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+          </div>
 
-    <header class="header -h-110 -mx-60 -blur -border-bottom-1 js-header" data-add-bg="bg-accent-1" data-x="header" data-x-toggle="-is-menu-opened">
-      <div class="header__container h-full items-center">
-        <div class="header__left d-flex items-center">
-          <button class="d-flex items-center cursor-pointer js-menuFullScreen-toggle">
-            <i class="icon-menu text-9 text-white"></i>
-            <div class="text-15 uppercase text-white ml-30 sm:d-none">Menu</div>
-          </button>
+          <div class="text-white lg:d-none">
+            <div class="desktopNav">
+              <div class="desktopNav__item">
+                <a href="index.html">
+                  Home
+                </a>
+              </div>
 
-          <div class="d-flex items-center ml-90 xl:d-none">
-            <i class="icon-phone text-20 text-white mr-30"></i>
-            <div class="text-15 uppercase text-white">+41-96567-7854</div>
+              <div class="desktopNav__item">
+                <a href="about.html">
+                  About
+                </a>
+              </div>
+
+              <div class="desktopNav__item">
+                <a href="projects.html">
+                  PROJECTS <i class="icon-chevron-down"></i>
+                </a>
+
+                <div class="desktopNavSubnav">
+                  <div class="desktopNavSubnav__content py-2 -col-3">
+                    <div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="projects.html">Upcoming</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_paradise.html">Paradise</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heritage.html">Heritage</a>
+                      </div>
+
+                    </div>
+                    <div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="projects.html">Ongoing</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heights.html">Heights</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_maitri.html">Maitri</a>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="projects.html">Completed</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heritage.html">Shree Siddhivinayak</a>
+                      </div>
+                      <div class="desktopNavSubnav__item py-1 my-1">
+                        <a href="project_heritage.html">Shree Sai</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="desktopNav__item">
+                <a href="media_event.html">
+                  MEDIA & EVENTS
+                  <!-- <i class="icon-chevron-down"></i> -->
+                </a>
+              </div>
+              <div class="desktopNav__item">
+                <a href="testimonial.html">
+                  TESTIMONIALS
+                  <!-- <i class="icon-chevron-down"></i> -->
+                </a>
+              </div>
+
+              <div class="desktopNav__item d-none">
+                <a href="contact.html">
+                  Contact
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
 
-        <div class="header__center">
-          <div class="header__logo">
-            <img src="img/general/logo-header-1.svg" alt="logo">
+        <div class="header__center w-150-max">
+          <div class="header__logo text-center">
+            <a href="index.html"><img src="img/ddsrWhite.png" alt="logo"></a>
           </div>
         </div>
 
         <div class="header__right d-flex items-center h-full">
-          <button class="button text-white mr-30 xl:mr-0">
-            EN <i class="icon-chevron-down ml-15"></i>
+          <button class="button text-white mr-60 lg:d-none">
+            <i class="icon-phone mr-15"></i>
+            +91-96567-7854
           </button>
 
-          <div class="line -vertical bg-white-10 h-full ml-90 mr-90 xl:d-none"></div>
+          <div class="desktopNav__item text-white">
+            <a href="contact.html">
+              Contact
+            </a>
+          </div>
 
-          <button class="button text-white mr-30 xl:d-none">BOOK YOUR STAY</button>
         </div>
       </div>
     </header>
@@ -218,7 +301,8 @@
             <div class="nopage__content text-center">
               <h1 class="text-white">404</h1>
               <h2 class="text-64 md:text-40 text-white">Page Not Found</h2>
-              <p class="text-white mt-30">Sorry but we couldn't find the page you are looking for. It might have been moved or deleted.</p>
+              <p class="text-white mt-30">Sorry but we couldn't find the page you are looking for. It might have been
+                moved or deleted.</p>
 
               <div class="d-flex">
                 <a href="index.html" class="button -md -type-2 -accent-1 bg-accent-2 mx-auto mt-40">BACK TO HOMEPAGE</a>
@@ -237,7 +321,7 @@
 
   <script src="js/vendors.js"></script>
   <script src="js/main.js"></script>
-<script src="js/link_whatsapp.js"></script>
+  <script src="js/link_whatsapp.js"></script>
 </body>
 
 </html>
