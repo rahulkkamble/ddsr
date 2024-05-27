@@ -11952,8 +11952,11 @@ body.is-cursor-active * {
   border-radius: 16px;
 }
 
+/* .header__logo img {
+  width: 30%; for overlay fix on testimonial link
+} */
 .header__logo img {
-  width: 30%;
+  width: 100%;
 }
 
 /* new footer */
@@ -12147,6 +12150,10 @@ textarea.resize-none {
 
 .img-h-60 img {
   height: 60px;
+}
+
+.w-150-max{ /* added for overlay fix for testimonial link */
+  max-width: 150px;
 }
 
 /* .my-list li{

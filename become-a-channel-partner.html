@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" data-x="html" data-x-toggle="html-overflow-hidden">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&amp;family=Jost:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap 5 imported for missing classes -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/vendors.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>DDSR</title>
+    <style>
+        .mapouter {
+            position: relative;
+            text-align: right;
+            width: 100%;
+            height: 550px;
+        }
+
+        .gmap_canvas {
+            overflow: hidden;
+            background: none !important;
+            width: 100%;
+            height: 550px;
+        }
+
+        .gmap_iframe {
+            height: 550px !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menuFullScreen js-menuFullScreen">
+        <div class="menuFullScreen__topMobile js-menuFullScreen-topMobile">
+            <div class="d-flex items-center text-white js-menuFullScreen-toggle">
+                <i class="icon-menu text-9"></i>
+                <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+            </div>
+
+            <div class="mobile_menu_logo">
+                <a href="index.html"><img src="img/ddsrWhite.png" alt="logo"></a>
+            </div>
+        </div>
+
+        <div class="menuFullScreen__mobile__bg js-menuFullScreen-mobile-bg"></div>
+
+        <div class="menuFullScreen__left">
+            <div class="menuFullScreen__bg js-menuFullScreen-bg">
+                <img src="img/menu/bg.png" alt="image">
+            </div>
+
+            <button class="menuFullScreen__close js-menuFullScreen-toggle js-menuFullScreen-close-btn">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                </span>
+                CLOSE
+            </button>
+
+            <div class="menuFullScreen-links js-menuFullScreen-links">
+
+                <div class="menuFullScreen-links__item">
+                    <a href="index.html">
+                        HOME
+                        <!-- <i class="icon-arrow-right"></i>
+                <i class="icon-chevron-right"></i> -->
+                    </a>
+                </div>
+                <div class="menuFullScreen-links__item">
+                    <a href="about.html">
+                        ABOUT
+                    </a>
+                </div>
+
+                <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+                    <a href="javascript:void(0)">
+                        PROJECTS
+                        <i class="icon-arrow-right"></i>
+                        <i class="icon-chevron-right"></i>
+                    </a>
+                    <div class="menuFullScreen-links-subnav js-menuFullScreen-subnav">
+                        <div class="menuFullScreen-links-subnav__item">
+                            <a href="project_heritage.html">ALL PROJECTS</a>
+                        </div>
+                        <div class="menuFullScreen-links-subnav__item">
+                            <a href="project_heritage.html">HERITAGE</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menuFullScreen-links__item js-menuFullScreen-has-children">
+                    <a href="#">
+                        MEDIA & EVENTS
+                        <i class="icon-arrow-right"></i>
+                        <i class="icon-chevron-right"></i>
+                    </a>
+                </div>
+
+                <div class="menuFullScreen-links__item">
+                    <a href="contact.html">
+                        CONTACT
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="menuFullScreen__right js-menuFullScreen-right">
+            <div class="text-center">
+                <div class="mb-100">
+                    <img src="img/ddsrWhite.png" alt="image">
+                </div>
+
+                <div class="text-sec lh-11 fw-500 text-40">
+                    DDSR GROUP
+                </div>
+
+                <div class="mt-40">
+                    <div class="text-30 text-sec fw-500">
+                        Location
+                    </div>
+                    <div class="mt-10">
+                        PO Box 16122 Collins Street West<br>
+                        Victoria 8007 Australia
+                    </div>
+                </div>
+
+                <div class="mt-40">
+                    <div class="text-30 text-sec fw-500">
+                        Phone Support
+                    </div>
+                    <div class="mt-10">
+                        <div>
+                            <a href="#">+ 91 345 647 745</a>
+                        </div>
+                        <div>
+                            <a href="#">info@ddsrgroup.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-40">
+                    <div class="text-30 text-sec fw-500">
+                        Connect With Us
+                    </div>
+                    <div class="mt-10">
+                        <a href="#">+ 91 345 647 745</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menuFullScreen__bottomMobile js-menuFullScreen-buttomMobile">
+
+            <a href="#" class="d-flex items-center mt-40">
+                <i class="icon-phone mr-10"></i>
+                <span>+91-96567-7854</span>
+            </a>
+
+            <a href="#" class="d-flex mt-20">
+                <i class="icon-map mr-10"></i>
+                <span>
+                    PO Box 16122 Collins Street West,
+                    Australia
+                </span>
+            </a>
+
+            <a href="#" class="d-flex items-center mt-20">
+                <i class="icon-mail mr-10"></i>
+                <span>info@ddsrgroup.com</span>
+            </a>
+        </div>
+    </div>
+
+
+    <!-- cursor start -->
+    <div class="cursor js-cursor">
+        <div class="cursor__wrapper">
+            <div class="cursor__follower js-follower"></div>
+            <div class="cursor__label js-label"></div>
+            <div class="cursor__icon js-icon"></div>
+        </div>
+    </div>
+    <!-- cursor end -->
+
+    <main>
+
+        <!-- DESKTOP HEADERS -->
+        <header class="header -mx-60 js-header" data-add-bg="bg-dark-2" data-x="header" data-x-toggle="-is-menu-opened"
+            data-anim="fade delay-3">
+            <div class="header__container py-50">
+                <div class="headerMobile__left">
+                    <div class="d-none lg:d-flex text-white items-center js-menuFullScreen-toggle">
+                        <i class="icon-menu text-9"></i>
+                        <div class="text-15 uppercase ml-30 sm:d-none">Menu</div>
+                    </div>
+
+                    <div class="text-white lg:d-none">
+                        <div class="desktopNav">
+                            <div class="desktopNav__item">
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </div>
+
+                            <div class="desktopNav__item">
+                                <a href="about.html">
+                                    About
+                                </a>
+                            </div>
+
+                            <div class="desktopNav__item">
+                                <a href="projects.html">
+                                    PROJECTS <i class="icon-chevron-down"></i>
+                                </a>
+
+                                <div class="desktopNavSubnav">
+                                    <div class="desktopNavSubnav__content py-2 -col-3">
+                                        <div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="projects.html">Upcoming</a>
+                                            </div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_paradise.html">Paradise</a>
+                                            </div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_heritage.html">Heritage</a>
+                                            </div>
+
+                                        </div>
+                                        <div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="projects.html">Ongoing</a>
+                                            </div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_heights.html">Heights</a>
+                                            </div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_maitri.html">Maitri</a>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="projects.html">Completed</a>
+                                            </div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_heritage.html">Shree Siddhivinayak</a>
+                                            </div>
+                                            <div class="desktopNavSubnav__item py-1 my-1">
+                                                <a href="project_heritage.html">Shree Sai</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="desktopNav__item">
+                                <a href="media_event.html">
+                                    MEDIA & EVENTS
+                                    <!-- <i class="icon-chevron-down"></i> -->
+                                </a>
+                            </div>
+                            <div class="desktopNav__item">
+                                <a href="testimonial.html">
+                                    TESTIMONIALS
+                                    <!-- <i class="icon-chevron-down"></i> -->
+                                </a>
+                            </div>
+
+                            <div class="desktopNav__item d-none">
+                                <a href="contact.html">
+                                    Contact
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="header__center w-150-max">
+                    <div class="header__logo text-center">
+                        <a href="index.html"><img src="img/ddsrWhite.png" alt="logo"></a>
+                    </div>
+                </div>
+
+                <div class="header__right d-flex items-center h-full">
+                    <button class="button text-white mr-60 lg:d-none">
+                        <i class="icon-phone mr-15"></i>
+                        +91-96567-7854
+                    </button>
+
+                    <div class="desktopNav__item text-white">
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+
+        <section data-anim-wrap class="layout-pt-lg layout-pb-lg bg-accent-1 -type-2">
+            <div data-anim-child="img-right cover-white delay-1" class="pageHero__bg">
+            </div>
+
+            <div class="container">
+                <div class="row justify-center">
+                    <div class="col-auto">
+                        <div class="pageHero__content text-center" data-split='lines'
+                            data-anim-child="split-lines delay-3">
+                            <h1 class="pageHero__title text-white mb-20">Channel Partner</h1>
+                            <p class="pageHero__text text-white">At DDSR Group, we value our relationship with our
+                                Channel Partners and look forward to building a long term association with mutual
+                                benefits.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="layout-pt-md layout-pb-lg">
+            <div class="container">
+                <div class="row y-gap-40 justify-between">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="fw-500 mb-30 md:mb-20">ARE YOU READY TO BECOME A SALES PARTNER ?</div>
+                        <h2 class="text-40">Get associated with DDSR Group
+                        </h2>
+
+
+                        <div class="line -horizontal bg-border mt-50 mb-50"></div>
+
+                        <p>
+                            As a Channel Partner you get priority updates on offers and new launches, marketing support
+                            and training, invites to exclusive events, attractive commission schemes, timely pay-outs,
+                            and much more! Join us today to become an Esteemed Partner and reap the benefits of
+                            partnering with DDSR Group.
+                        </p>
+
+                        <div class="d-flex gap-3 mt-30 flex-nowrap">
+                            <button class="button -sm p-3 bg-accent-2 text-nowrap -dark-1 w-1/1">Download Enrollment
+                                Form &
+                                Agreement</button>
+                            <button class="button -sm p-3 bg-accent-2 text-nowrap -dark-1 w-1/1">Download No GST
+                                Declaration</button>
+                            <button class="button -sm p-3 bg-accent-2 text-nowrap -dark-1 w-1/1">Empanel Now</button>
+                        </div>
+
+                        <p class="mt-30">For additional queries: <a href="">channelpartner@ddsrgroup.com</a></p>
+                        <p class="mt-30">For additional queries: <a href="">+91 8899889988</a></p>
+
+                        <div class="line -horizontal bg-border mt-50 mb-30"></div>
+                        <h2 class="text-40">FAQ</h2>
+                        <div class="line -horizontal bg-border mt-30 mb-50"></div>
+                        <div class="accordion -type-1 row y-gap-10 js-accordion">
+
+                            <div class="col-12">
+                                <div class="accordion__item">
+                                    <div
+                                        class="accordion__button d-flex items-center justify-between px-30 py-20 bg-light-1">
+                                        <div class="text-sec text-24 fw-500 lh-1">1. Is it mandatory to sign an
+                                            agreement and get empanelled to start doing business with DDSR ?</div>
+                                        <div class="accordion__icon">
+                                            <i class="icon-plus text-15"></i>
+                                            <i class="icon-minus text-15"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion__content">
+                                        <div class="px-30 py-30">
+                                            <p>
+                                                It is mandatory to sign the Channel Partner Agreement and get empanelled
+                                                before you can start promoting and selling DDSR properties.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="accordion__item">
+                                    <div
+                                        class="accordion__button d-flex items-center justify-between px-30 py-20 bg-light-1">
+                                        <div class="text-sec text-24 fw-500 lh-1">
+                                            2. Can empanelment be done without RERA ?</div>
+                                        <div class="accordion__icon">
+                                            <i class="icon-plus text-15"></i>
+                                            <i class="icon-minus text-15"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion__content">
+                                        <div class="px-30 py-30">
+                                            <p>
+                                                RERA Certificate is mandatory to get empaneled with DDSR Group for
+                                                promoting DDSR properties.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <div class="accordion__item">
+                                    <div
+                                        class="accordion__button d-flex items-center justify-between px-30 py-20 bg-light-1">
+                                        <div class="text-sec text-24 fw-500 lh-1">3. What are mandatory documents for
+                                            Channel Partner empanelment?</div>
+                                        <div class="accordion__icon">
+                                            <i class="icon-plus text-15"></i>
+                                            <i class="icon-minus text-15"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion__content">
+                                        <div class="px-30 py-30">
+                                            <p>
+                                                Approved original RERA certificate, PAN Card (As per the entity type),
+                                                Address proof of the person or the organisation (as per RERA name) GST
+                                                certificate or No-GST Declaration (whichever is applicable) and
+                                                Cancelled cheque.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-xl-4 col-lg-5">
+                        <div
+                            class="sidebar -rooms-single px-40 bg-accent-1-50 py-40 md:px-30 md:py-30 border-1 shadow-1">
+                            <div>
+                                <h3 class="text-30 text-white mb-20 fw-700">01</h3>
+                                <h3 class="text-30 text-white mb-20 fw-700">Download Form</h3>
+
+                                <p class="text-white">Download Empanelment form plus Agreement & NO GST Declaration.
+                                    Fill up & Sign the Empanelment form plus Agreement and get it scanned.</p>
+
+                                <div class="line -horizontal bg-border mt-50 mb-50"></div>
+                            </div>
+                            <div>
+                                <h3 class="text-30 text-white mb-20 fw-700">02</h3>
+                                <h3 class="text-30 text-white mb-20 fw-700">Upload Documents</h3>
+
+                                <p class="text-white">Arrange the original digital copies of mandatory documents (GST/No
+                                    GST certificate, Cancelled cheque, Rera Certificate, Address proof)</p>
+
+                                <div class="line -horizontal bg-border mt-50 mb-50"></div>
+                            </div>
+                            <div class="mb-50 md:mt-30">
+                                <h3 class="text-30 text-white mb-20 fw-700">03</h3>
+                                <h3 class="text-30 text-white mb-20 fw-700">Register Online</h3>
+
+                                <p class="text-white">Fill up the online form and upload necessary documents & submit to
+                                    complete the registration.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer class="w-100 my-footer py-4 flex-shrink-0">
+            <div class="container py-4">
+                <div class="row gy-4 gx-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="h1 text-white">DDSR Group</h5>
+                        <p class="small text-muted">DDSR Group is one of the experienced and respected building and
+                            civil
+                            construction firms in Navi Mumbai. We have been transforming the ideas and visions into
+                            successful
+                            projects.</p>
+                        <p class="small text-muted mb-0">&copy; Copyrights. DDSR Group. All rights reserved. <a
+                                class="text-primary" href="#"></a></p>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Quick links</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <h5 class="text-white mb-3">Quick links</h5>
+                        <ul class="list-unstyled text-muted">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Get started</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h5 class="text-white mb-3">Newsletter</h5>
+                        <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod tempor
+                            incididunt.</p>
+                        <form action="#" class="d-none">
+                            <div class="input-group mb-3">
+                                <input class="form-control" type="text" placeholder="Recipient's username"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn-primary" id="button-addon2" type="button"><i
+                                        class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+
+
+    <!-- JavaScript -->
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAAz77U5XQuEME6TpftaMdX0bBelQxXRlM"></script> -->
+    <!-- <script src="../../../unpkg.com/%40googlemaps/markerclusterer%402.5.3/dist/index.min.js"></script> -->
+
+    <!-- Bootstrap 5 js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="js/vendors.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/link_whatsapp.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+</body>
+
+</html>
