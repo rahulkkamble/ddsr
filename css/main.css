@@ -2085,7 +2085,7 @@ h6 {
 
 @media (max-width: 575px) {
   .header__logo img {
-    /* height: 32px; */
+    height: 32px;
     width: 110%;
   }
 }
@@ -12152,7 +12152,8 @@ textarea.resize-none {
   height: 60px;
 }
 
-.w-150-max{ /* added for overlay fix for testimonial link */
+.w-150-max {
+  /* added for overlay fix for testimonial link */
   max-width: 150px;
 }
 
@@ -12171,16 +12172,19 @@ textarea.resize-none {
   width: calc(100% + 2px);
   background-color: #00000039;
 }
+
 .projects .project i,
-.projects .project h4{
+.projects .project h4 {
   color: #000000;
   transition: color .3s ease-in-out;
 }
+
 .projects .project:hover i,
-.projects .project:hover h4{
+.projects .project:hover h4 {
   color: var(--color-dark-2);
   cursor: pointer;
 }
+
 .projects .project:hover i {
   animation-name: up-down;
   animation-duration: 0.5s;
@@ -12209,12 +12213,16 @@ textarea.resize-none {
   }
 }
 
-.h-50vh{
+.h-50vh {
   height: 70vh !important;
 }
 
 @media screen and (max-width:640px) {
-  .h-50vh{
+  .h-50vh {
     height: 50vh !important;
+  }
+
+  .img-h-60 img {
+    height: 35px;
   }
 }
