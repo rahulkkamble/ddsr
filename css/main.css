@@ -12175,7 +12175,7 @@ textarea.resize-none {
 
 .projects .project i,
 .projects .project h4 {
-  color: #000000;
+  color: var(--color-accent-1);
   transition: color .3s ease-in-out;
 }
 
@@ -12188,7 +12188,7 @@ textarea.resize-none {
 .projects .project.active i,
 .projects .project.active h4 
 {
-  color: goldenrod;
+  color: var(--color-warning-2);
   cursor: pointer;
 }
 
