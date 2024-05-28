@@ -12180,8 +12180,15 @@ textarea.resize-none {
 }
 
 .projects .project:hover i,
-.projects .project:hover h4 {
-  color: var(--color-dark-2);
+.projects .project:hover h4,
+.projects .project:focus i,
+.projects .project:focus h4,
+.projects .project:active i,
+.projects .project:active h4,
+.projects .project.active i,
+.projects .project.active h4 
+{
+  color: goldenrod;
   cursor: pointer;
 }
 
