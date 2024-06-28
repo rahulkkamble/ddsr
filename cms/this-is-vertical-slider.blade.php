@@ -9,6 +9,10 @@
                    class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
+
+                <div class="qr-on-top">
+                    <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/sample_qr_1.jpg" alt="QR">
+                </div>
             </div>
 
             <div class="">
@@ -18,6 +22,9 @@
                    class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
+                <div class="qr-on-top">
+                    <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/sample_qr_1.jpg" alt="QR">
+                </div>
             </div>
 
             <div class="">
@@ -27,6 +34,9 @@
                    class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
+                <div class="qr-on-top">
+                    <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/sample_qr_1.jpg" alt="QR">
+                </div>
             </div>
 
             <div class="">
@@ -36,6 +46,9 @@
                    class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
+                <div class="qr-on-top">
+                    <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/sample_qr_1.jpg" alt="QR">
+                </div>
             </div>
 
             <div class="">
@@ -45,6 +58,9 @@
                    class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
+                <div class="qr-on-top">
+                    <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/sample_qr_1.jpg" alt="QR">
+                </div>
             </div>
 
         </div>
@@ -68,7 +84,10 @@
                                             Anuparva (2016)
                                         </h4>
                                         <p class="text-17 text-white mt-20">
-                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                                            Location
+                                        </p>
+                                        <p class="text-17 text-white mt-20">
+                                            MAHARERA NO : ---
                                         </p>
                                     </div>
                                 </div>
@@ -84,7 +103,10 @@
                                             Vista (2017)
                                         </h4>
                                         <p class="text-17 text-white mt-20">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, ut.
+                                            Location
+                                        </p>
+                                        <p class="text-17 text-white mt-20">
+                                            MAHARERA NO : ---
                                         </p>
                                     </div>
                                 </div>
@@ -101,7 +123,10 @@
                                                 Vihar (2018)
                                             </h4>
                                             <p class="text-17 text-white mt-20">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, est.
+                                                Location
+                                            </p>
+                                            <p class="text-17 text-white mt-20">
+                                                MAHARERA NO : ---
                                             </p>
                                         </div>
                                     </div>
@@ -118,7 +143,10 @@
                                             Jai Shri Krishna (2019)
                                         </h4>
                                         <p class="text-17 text-white mt-20">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, iste!
+                                            Location
+                                        </p>
+                                        <p class="text-17 text-white mt-20">
+                                            MAHARERA NO : ---
                                         </p>
                                     </div>
                                 </div>
@@ -134,7 +162,10 @@
                                             Kalakar Patrakar (2020)
                                         </h4>
                                         <p class="text-17 text-white mt-20">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tenetur.
+                                            Location
+                                        </p>
+                                        <p class="text-17 text-white mt-20">
+                                            MAHARERA NO : ---
                                         </p>
                                     </div>
                                 </div>
