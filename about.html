@@ -17,6 +17,30 @@
   <link rel="stylesheet" href="css/vendors.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <style>
+    .with-qr {
+      z-index: 0;
+      position: relative;
+    }
+
+    .qr-on-top {
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      margin: 1rem;
+      z-index: 1;
+    }
+
+    @media screen and (max-width:640px) {
+      .qr-on-top{
+        height: 20%;
+        width: 25%;
+      }
+    }
+  </style>
+
   <title>DDSR</title>
 </head>
 
@@ -377,206 +401,152 @@
     </section>
     <!-- new benchmark for amenities end -->
 
-    <!-- benchmark for amenities and project basket -->
-    <section class="d-none layout-pt-lg layout-pb-lg">
-      <div class="container">
-        <div data-anim-wrap class="d-none row y-gap-40 justify-between items-center">
-          <div data-anim="img-right cover-white delay-1" class="col-xl-6 col-lg-6">
-            <img src="img/about/6/1.png" alt="image">
-          </div>
-
-          <div data-split='lines' data-anim="split-lines delay-3" class="col-xl-5 col-lg-6">
-            <h3 class="text-40 md:text-30 capitalize">
-              A benchmark for Amenities
-            </h3>
-
-            <p class="lh-17 pt-40">
-            <ul class="my-list">
-              <li class="py-3">Clubhouse
-              </li>
-              <li class="py-3">Gymnasium
-              </li>
-              <li class="py-3">Children’s Playground
-              </li>
-              <li class="py-3">Indoor Games
-              </li>
-              <li class="py-3">24/7 Security Surveillance
-              </li>
-              <li class="py-3">Elevated Car Parking</li>
-            </ul>
-            </p>
-          </div>
-        </div>
-
-        <div data-anim-wrap class="d-none row y-gap-40 justify-between items-center pt-100 sm:pt-50">
-          <div data-anim="img-right cover-white delay-1" class="col-xl-6 col-lg-6">
-            <img src="img/about/6/2.png" alt="image">
-          </div>
-
-          <div data-split='lines' data-anim="split-lines delay-3" class="col-xl-5 col-lg-6">
-            <h3 class="text-40 md:text-30 capitalize">
-              Our Project Basket
-            </h3>
-
-            <p class="lh-17 pt-1 d-none">
-              Premium design for a superlative life with salient features.
-            </p>
-            <p class="lh-17 pt-40">
-            <ul>
-              <li class="py-3">Shiv Mahima Angan- completed
-              </li>
-              <li class="py-3">Shree Arpan- completed
-              </li>
-              <li class="py-3">Shree Sai- completed
-              </li>
-              <li class="py-3">DDSR Heights- upcoming
-              </li>
-              <li class="py-3">Matoshree CHS LTD- upcoming
-              </li>
-              <li class="py-3">DDSR Heritage CHS LTD- upcoming
-              </li>
-            </ul>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <!-- project basket new -->
     <section class="layout-pt-md layout-pb-lg bg-accent-2">
-      <div data-anim-wrap class="container">
+      <div data-anim-wrap="" class="container">
         <div class="row justify-center text-center">
-          <div data-split='lines' data-anim="split-lines delay-1" class="col-auto">
-            <div class="text-15 uppercase mb-20 sm:mb-10">Premium design for a superlative life with salient features.
+          <div data-split="lines" data-anim="split-lines delay-1" class="col-auto">
+            <div class="text-15 uppercase mb-20 sm:mb-10">Premium design for a superlative life with salient
+              features.
             </div>
-            <h2 class="text-64 md:text-40 mb-60 sm:mb-10">Our Project Basket</h2>
+            <h2 class="text-64 md:text-40 mb-60 sm:mb-10">Our Project Basket
+            </h2>
           </div>
         </div>
         <div class="hoverTitleInteraction">
           <div class="row y-gap-30 justify-between items-center">
             <div class="col-lg-6 offset-lg-1 lg:order-2 lg:pt-50">
               <div class="hoverTitleInteraction__images d-flex justify-end">
-
                 <div class="is-active">
                   <div class="imageGrid -type-1">
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-1">
-                        <img src="img/about/2/2.png" alt="image" class="">
+                        <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_ajinkyans.PNG" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                     <div>
-                      <div data-anim-child="img-right cover-accent-2 delay-3">
-                        <img src="img/UPCOMING/Ajinkyans_Mumbai.jpg" alt="image" class="">
+                      <div class="position-relative" data-anim-child="img-right cover-accent-2 delay-3">
+                        <div class="with-qr">
+                          <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/Ajinkyans_Mumbai.jpg"
+                            alt="image" class="img-fluid" />
+                        </div>
+                        <div class="qr-on-top">
+                          <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_ajinkyans.PNG" alt="image"
+                            class="img-fluid">
+                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="">
+                <div>
                   <div class="imageGrid -type-1">
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-1">
-                        <img src="img/cards/rooms/3/1.png" alt="image" class="">
+                        <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_honey_homes.PNG" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-3">
-                        <img src="img/UPCOMING/DDSR_HERITAGE.jpg" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/ONGOING/Honey_Homes.jpg" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="">
+                <div>
                   <div class="imageGrid -type-1">
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-1">
-                        <img src="img/cards/rooms/3/3.png" alt="image" class="">
+                        <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_maitri.png" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-3">
-                        <img src="img/UPCOMING/DREAMWOOD.jpg" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/ONGOING/MAITRI_CHS.jpg" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                   </div>
                 </div>
-
-                <div class="">
+                <div>
                   <div class="imageGrid -type-1">
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-1">
-                        <img src="img/cards/rooms/3/5.png" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-3">
-                        <img src="img/UPCOMING/DREAMWOOD.jpg" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/DREAMWOOD.jpg" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="">
+                <div>
                   <div class="imageGrid -type-1">
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-1">
-                        <img src="img/cards/rooms/3/3.png" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/3.png" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-3">
-                        <img src="img/UPCOMING/DDSR_PRide.jpg" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/DDSR_PRide.jpg" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="">
+                <div>
                   <div class="imageGrid -type-1">
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-1">
-                        <img src="img/cards/rooms/3/5.png" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                     <div>
                       <div data-anim-child="img-right cover-accent-2 delay-3">
-                        <img src="img/UPCOMING/DDSR_HERITAGE.jpg" alt="image" class="">
+                        <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/DDSR_HERITAGE.jpg" alt="image"
+                          class="img-fluid" />
                       </div>
                     </div>
                   </div>
                 </div>
-
               </div>
             </div>
-
             <div class="col-xl-4 col-lg-5 lg:order-1">
               <div class="hoverTitleInteraction__links">
                 <a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500">
-                  Shiv Mahima Angan
-                  <i class="icon-arrow-right text-21 ml-50"></i>
-                </a>
-
+                  Mumbai Ajinkyans
+                  <i class="icon-arrow-right text-21 ml-50">
+                  </i></a>
                 <a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
-                  Shree Arpan
-                  <i class="icon-arrow-right text-21 ml-50"></i>
-                </a>
-
+                  Honey Homes
+                  <i class="icon-arrow-right text-21 ml-50">
+                  </i></a>
                 <a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
-                  Shree Sai
-                  <i class="icon-arrow-right text-21 ml-50"></i>
-                </a>
-
+                  Maitri
+                  <i class="icon-arrow-right text-21 ml-50">
+                  </i></a>
                 <a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
                   DDSR Heights
-                  <i class="icon-arrow-right text-21 ml-50"></i>
-                </a>
+                  <i class="icon-arrow-right text-21 ml-50">
+                  </i></a>
                 <a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
                   Matoshree CHS LTD
-                  <i class="icon-arrow-right text-21 ml-50"></i>
-                </a>
+                  <i class="icon-arrow-right text-21 ml-50">
+                  </i></a>
                 <a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
                   DDSR Heritage CHS LTD
-                  <i class="icon-arrow-right text-21 ml-50"></i>
-                </a>
+                  <i class="icon-arrow-right text-21 ml-50">
+                  </i></a>
               </div>
             </div>
           </div>
