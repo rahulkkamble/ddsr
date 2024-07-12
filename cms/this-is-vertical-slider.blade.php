@@ -3,7 +3,7 @@
         <div class="verticalSlider-images__images">
 
             <div class="">
-                <img src="/frontend/ddsr/assets/img/COMPLETED/Ekta_Vihar.jpg" alt="image" class="img-ratio">
+                <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/Ekta_Vihar-min.jpg" alt="image" class="img-ratio">
 
                 <a href="#"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
@@ -15,7 +15,7 @@
             </div>
 
             <div class="">
-                <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/ANUVISHWA_CHS.jpg" alt="image"
+                <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/ANUVISHWA_CHS-min.jpg" alt="image"
                     class="img-ratio">
 
                 <a href="#"
@@ -28,7 +28,7 @@
             </div>
 
             <div class="is-active">
-                <img src="/frontend/ddsr/assets/img/COMPLETED/DDSR_Anuparva.jpg" alt="image" class="img-ratio">
+                <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/DDSR_Anuparva-min.jpg" alt="image" class="img-ratio">
 
                 <a href="#"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
@@ -55,7 +55,7 @@
             </div>
 
             <div class="">
-                <img src="/frontend/ddsr/assets/img/COMPLETED//KALAKAR_PATRAKAR_CHS.jpg" alt="image"
+                <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/KALAKAR_PATRAKAR_CHS_Compressed.jpg" alt="image"
                     class="img-ratio">
 
                 <a href="#"
