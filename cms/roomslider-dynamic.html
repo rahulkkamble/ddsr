@@ -1,0 +1,64 @@
+<body>
+    <section class="relative layout-pt-lg layout-pb-lg">
+        <div class="sectionBg bg-light-1 rounded-16 ml-10 mr-10">
+        </div>
+        <div data-anim-wrap="" class="container">
+            <div class="row justify-center text-center">
+                <div data-split="lines" data-anim-child="split-lines delay-2" class="col-auto">
+                    <div class="text-15 uppercase mb-30 sm:mb-10">
+                        Explore
+                    </div>
+                    <h2 class="text-64 md:text-40 lh-11">
+                        Our Projects
+                    </h2>
+                </div>
+            </div>
+            <!-- tabs -->
+            <div class="tabs -type-1 mt-100 sm:mt-50 js-tabs">
+                <div data-anim-child="slide-up delay-4"
+                    class="tabs__controls row y-gap-20 items-center justify-center js-tabs-controls">
+                    <div class="col-auto">
+                        <button data-tab-target=".-tab-item-1" data-active=".a1"
+                            class="active tabs__button text-sec text-24 fw-500 js-tabs-button is-tab-el-active">Upcoming
+                            Projects</button>
+                    </div>
+                    <div class="col-auto sm:d-none">
+                        <div class="-circle-2 bg-accent-2">
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <button data-tab-target=".-tab-item-2" data-active=".b1"
+                            class="tabs__button text-sec text-24 fw-500 js-tabs-button">Ongoing Projects</button>
+                    </div>
+                </div>
+                <div class="tabs__content mt-100 sm:mt-50 js-tabs-content">
+                    <div class="tabs__pane -tab-item-1 is-tab-el-active">
+                        <div data-gap="30" data-slider-cols="xl-3 lg-3 md-2 sm-2 base-1"
+                            data-pagination="js-slider1-pagination" class="relative overflow-hidden js-section-slider">
+                            [[This-Is-Banner type=upcoming_projects_on_homepage]]
+                            <div class="row justify-center pt-100 md:pt-50 pb-10">
+                                <div class="col-auto">
+                                    <div class="pagination -type-1 -accent-1 js-slider1-pagination">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tabs__pane -tab-item-2">
+                        <div data-gap="30" data-slider-cols="xl-3 lg-3 md-2 sm-2 base-1"
+                            data-pagination="js-slider2-pagination" class="relative overflow-hidden js-section-slider">
+                            [[This-Is-Banner type=ongoing_projects_on_homepage]]
+                            <div class="row justify-center pt-100 md:pt-50 pb-10">
+                                <div class="col-auto">
+                                    <div class="pagination -type-1 -accent-1 js-slider2-pagination">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tabs -->
+        </div>
+    </section>
+</body>

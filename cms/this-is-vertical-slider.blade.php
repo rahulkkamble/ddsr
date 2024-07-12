@@ -5,7 +5,7 @@
             <div class="">
                 <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/Ekta_Vihar-min.jpg" alt="image" class="img-ratio">
 
-                <a href="#"
+                <a href="https://www.ddsrgroup.com/ddsr-ekta-vihar"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
@@ -18,7 +18,7 @@
                 <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/ANUVISHWA_CHS-min.jpg" alt="image"
                     class="img-ratio">
 
-                <a href="#"
+                <a href="https://www.ddsrgroup.com/ddsr-anuvishwa"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
@@ -30,7 +30,7 @@
             <div class="is-active">
                 <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/DDSR_Anuparva-min.jpg" alt="image" class="img-ratio">
 
-                <a href="#"
+                <a href="https://www.ddsrgroup.com/ddsr-anuparva"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
@@ -45,7 +45,7 @@
             <div class="">
                 <img src="/frontend/ddsr/assets/img/COMPLETED/JAY_SHRI_KRUSHNA.jpg" alt="image" class="img-ratio">
 
-                <a href="#"
+                <a href="https://www.ddsrgroup.com/ddsr-jai-shri-krushna"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
@@ -58,7 +58,7 @@
                 <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/KALAKAR_PATRAKAR_CHS_Compressed.jpg" alt="image"
                     class="img-ratio">
 
-                <a href="#"
+                <a href="https://www.ddsrgroup.com/ddsr-kalakar-patrakar"
                     class="verticalSlider-images__button flex-center size-130 rounded-full bg-accent-1-50 blur-1 border-white-10">
                     <span class="text-15 fw-500 text-white">Explore</span>
                 </a>
@@ -92,7 +92,7 @@
                                                 Kalamboli, Navi Mumbai
                                             </p>
                                             <p class="text-17 text-white mt-20">
-                                                MAHARERA NO : ---
+                                                MAHARERA NO : 
                                             </p>
                                         </div>
                                     </div>
@@ -112,7 +112,7 @@
                                             New Panvel
                                         </p>
                                         <p class="text-17 text-white mt-20">
-                                            MAHARERA NO : ---
+                                            MAHARERA NO : 
                                         </p>
                                     </div>
                                 </div>
@@ -131,7 +131,7 @@
                                             Khanda Colony, Panvel
                                         </p>
                                         <p class="text-17 text-white mt-20">
-                                            MAHARERA NO : ---
+                                            MAHARERA NO : 
                                         </p>
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@
                                             Kalamboli, Navi Mumbai
                                         </p>
                                         <p class="text-17 text-white mt-20">
-                                            MAHARERA NO : ---
+                                            MAHARERA NO : 
                                         </p>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@
                                             Khanda Colony, New Panvel
                                         </p>
                                         <p class="text-17 text-white mt-20">
-                                            MAHARERA NO : ---
+                                            MAHARERA NO : 
                                         </p>
                                     </div>
                                 </div>
