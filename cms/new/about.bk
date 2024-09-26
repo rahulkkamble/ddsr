@@ -1,0 +1,802 @@
+<body>[[This-Is-Component title=&#039;Menu&#039;]]
+  <main id="iopg">
+	<!-- DESKTOP HEADERS -->
+	[[This-Is-Component title=&#039;Header&#039;]]
+	<section data-anim-wrap="" class="pageHero -type-2 -items-center">
+	  <div data-anim-child="img-right cover-white delay-1" class="overlay-dark-1 pageHero__bg">
+		<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/About_Cover.jpg" alt="image" class="img-fluid"/>
+	  </div>
+	  <div class="container">
+		<div class="row justify-center">
+		  <div class="col-auto">
+			<div data-split="lines" data-anim="split-lines delay-3" class="pageHero__content text-center">
+			  <!-- <div class="pageHero__subtitle text-white uppercase mb-20">SINCE 1998</div> -->
+			  <h1 class="pageHero__title lh-11 capitalize text-white">About DDSR Group
+			  </h1>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<section class="layout-pt-lg">
+	  <div data-anim-wrap="" class="container">
+		<div class="row justify-center text-center">
+		  <div class="col-xl-10 col-lg-11">
+			<div data-split="lines" data-anim="split-lines delay-2">
+			  <div class="text-15 mb-20">
+				DDSR Group
+			  </div>
+			  <h2 class="text-64 md:text-40 capitalize">
+				Where comfort is the choice
+			  </h2>
+			  <p class="lh-17 px-90 lg:px-0 pt-40">
+				At DDSR Builders &amp; Developers LLP, we are committed to transforming Navi Mumbai’s
+				skyline through
+				quality projects that blend affordable luxury with unmatched convenience. True to our
+				name, each
+				development is designed to become a landmark, reflecting our dedication to excellence
+				and our
+				understanding of our customers&#039; needs.
+			  </p>
+			</div>
+			<div class="row y-gap-30 justify-between pt-60 md:pt-40 d-none">
+			  <div data-split="lines" data-anim="split-lines delay-7" class="col-auto">
+				<h3 class="text-64 md:text-30">12m+
+				</h3>
+				<div class="uppercase lh-1 mt-20">Happy Customers
+				</div>
+			  </div>
+			  <div data-split="lines" data-anim="split-lines delay-9" class="col-auto">
+				<h3 class="text-64 md:text-30">22
+				</h3>
+				<div class="uppercase lh-1 mt-20">Luxe ROOMS
+				</div>
+			  </div>
+			  <div data-split="lines" data-anim="split-lines delay-11" class="col-auto">
+				<h3 class="text-64 md:text-30">14
+				</h3>
+				<div class="uppercase lh-1 mt-20">PRIVATE POOL
+				</div>
+			  </div>
+			  <div data-split="lines" data-anim="split-lines delay-13" class="col-auto">
+				<h3 class="text-64 md:text-30">17
+				</h3>
+				<div class="uppercase lh-1 mt-20">RESTAURANTS
+				</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- new benchmark for amenities -->
+	<section id="secondSection-2" data-anim-wrap="" class="layout-pt-lg layout-pb-lg">
+	  <div class="container">
+		<div class="row justify-center text-center">
+		  <div class="col-auto">
+			<h2 data-anim-child="slide-up delay-2" class="text-64 md:text-40">A benchmark for Amenities
+			</h2>
+		  </div>
+		</div>
+		<div class="row y-gap-30 pt-60 sm:pt-50">
+		  <div class="col-lg-6">
+			<div data-anim-child="slide-up delay-2" class="row x-gap-50 y-gap-20 pt-40">
+			  <div class="col-sm-6">
+				<ul class="ulList text-21 -type-1">
+				  <li data-anim-child="slide-up delay-2">Clubhouse
+				  </li>
+				  <li data-anim-child="slide-up delay-3">Gymnasium
+				  </li>
+				  <li data-anim-child="slide-up delay-4">Children’s Playground
+				  </li>
+				</ul>
+			  </div>
+			  <div class="col-sm-6">
+				<ul class="ulList text-21 -type-1">
+				  <li data-anim-child="slide-up delay-2">Indoor Games
+				  </li>
+				  <li data-anim-child="slide-up delay-3">24/7 Security Surveillance
+				  </li>
+				  <li data-anim-child="slide-up delay-4">Elevated Car Parking.
+				  </li>
+				</ul>
+			  </div>
+			</div>
+			<div data-anim-child="slide-up delay-6" class="lg:d-none mt-60 md:mt-30">
+			  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/Amenities_1_686x600.jpg" alt="image" class="img-fluid"/>
+			</div>
+		  </div>
+		  <div class="col-lg-6 lg:d-none">
+			<div data-anim-child="slide-up delay-7">
+			  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/Amenities_2_686x600.jpg.jpg" alt="image" class="img-fluid"/>
+			</div>
+			<div data-anim-child="slide-up delay-8" class="mt-30">
+			  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/Amenities_3_329x286.jpg" alt="image" class="img-fluid"/>
+			</div>
+		  </div>
+		</div>
+		<div data-anim-child="slide-up delay-4" class="d-none lg:d-flex mt-40">
+		  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/Amenities_1_686x600.jpg" alt="image" class="w-1-1"/>
+		</div>
+	  </div>
+	</section>
+	<!-- new benchmark for amenities end -->
+	<!-- benchmark for amenities and project basket -->
+	<section class="d-none layout-pt-lg layout-pb-lg">
+	  <div class="container">
+		<div data-anim-wrap="" class="d-none row y-gap-40 justify-between items-center">
+		  <div data-anim="img-right cover-white delay-1" class="col-xl-6 col-lg-6">
+			<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/about/6/1.png" alt="image" class="img-fluid"/>
+		  </div>
+		  <div data-split="lines" data-anim="split-lines delay-3" class="col-xl-5 col-lg-6">
+			<h3 class="text-40 md:text-30 capitalize">
+			  A benchmark for Amenities
+			</h3>
+			<p class="lh-17 pt-40">
+			</p>
+			<ul class="my-list">
+			  <li class="py-3">Clubhouse
+			  </li>
+			  <li class="py-3">Gymnasium
+			  </li>
+			  <li class="py-3">Children’s Playground
+			  </li>
+			  <li class="py-3">Indoor Games
+			  </li>
+			  <li class="py-3">24/7 Security Surveillance
+			  </li>
+			  <li class="py-3">Elevated Car Parking
+			  </li>
+			</ul>
+			<p>
+			</p>
+		  </div>
+		</div>
+		<div data-anim-wrap="" class="d-none row y-gap-40 justify-between items-center pt-100 sm:pt-50">
+		  <div data-anim="img-right cover-white delay-1" class="col-xl-6 col-lg-6">
+			<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/about/6/2.png" alt="image" class="img-fluid"/>
+		  </div>
+		  <div data-split="lines" data-anim="split-lines delay-3" class="col-xl-5 col-lg-6">
+			<h3 class="text-40 md:text-30 capitalize">
+			  Our Project Basket
+			</h3>
+			<p class="lh-17 pt-1 d-none">
+			  Premium design for a superlative life with salient features.
+			</p>
+			<p class="lh-17 pt-40">
+			</p>
+			<ul>
+			  <li class="py-3">Mumbai Ajinkyans - completed
+			  </li>
+			  <li class="py-3">Shree Arpan- completed
+			  </li>
+			  <li class="py-3">Shree Sai- completed
+			  </li>
+			  <li class="py-3">DDSR Heights- upcoming
+			  </li>
+			  <li class="py-3">Matoshree CHS LTD- upcoming
+			  </li>
+			  <li class="py-3">DDSR Heritage CHS LTD- upcoming
+			  </li>
+			</ul>
+			<p>
+			</p>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- project basket new -->
+	<section class="layout-pt-md layout-pb-lg bg-accent-2">
+	  <div data-anim-wrap="" class="container">
+		<div class="row justify-center text-center">
+		  <div data-split="lines" data-anim="split-lines delay-1" class="col-auto">
+			<div class="text-15 uppercase mb-20 sm:mb-10">Premium design for a superlative life with salient
+			  features.
+			</div>
+			<h2 class="text-64 md:text-40 mb-60 sm:mb-10">Our Project Basket
+			</h2>
+		  </div>
+		</div>
+		<div class="hoverTitleInteraction">
+		  <div class="row y-gap-30 justify-between items-center">
+			<div class="col-lg-6 offset-lg-1 lg:order-2 lg:pt-50">
+			  <div class="hoverTitleInteraction__images d-flex justify-end">
+				<div class="is-active">
+				  <div class="imageGrid -type-1">
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-1">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-3" class="position-relative">
+						<div class="with-qr">
+						  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/Ajinkyans_Mumbai.jpg" alt="image" class="img-fluid"/>
+						</div>
+						<div class="qr-on-top">
+						  <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_ajinkyans.PNG" alt="image" class="img-fluid"/>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div>
+				  <div class="imageGrid -type-1">
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-1">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-3" class="position-relative">
+						<div class="with-qr">
+						  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/ONGOING/Honey_Homes.jpg" alt="image" class="img-fluid"/>
+						</div>
+						<div class="qr-on-top">
+						  <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_honey_homes.PNG" alt="image" class="img-fluid"/>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div>
+				  <div class="imageGrid -type-1">
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-1">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-3" class="position-relative">
+						<div class="with-qr">
+						  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/ONGOING/MAITRI_CHS.jpg" alt="image" class="img-fluid"/>
+						</div>
+						<div class="qr-on-top">
+						  <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_maitri.png" alt="image" class="img-fluid"/>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div>
+				  <div class="imageGrid -type-1">
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-1">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-3" class="position-relative">
+						<div class="with-qr">
+						  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/ONGOING/SWAPNAPOORTI_CHS_LTD.jpg" alt="image" class="img-fluid"/>
+						</div>
+						<div class="qr-on-top">
+						  <img src="https://ddsrgroup.com/storage/laravel-grapesjs/media/qr_swapnpoorti.PNG" alt="image" class="img-fluid"/>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div>
+				  <div class="imageGrid -type-1">
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-1">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/3.png" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-3">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/DDSR_PRide.jpg" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+				  </div>
+				</div>
+				<div>
+				  <div class="imageGrid -type-1">
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-1">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/cards/rooms/3/5.png" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+					<div>
+					  <div data-anim-child="img-right cover-accent-2 delay-3">
+						<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/UPCOMING/DDSR_HERITAGE.jpg" alt="image" class="img-fluid"/>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			  </div>
+			</div>
+			<div class="col-xl-4 col-lg-5 lg:order-1">
+			  <div class="hoverTitleInteraction__links">
+				<a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500">
+				  Mumbai Ajinkyans
+				  <i class="icon-arrow-right text-21 ml-50">
+				  </i></a>
+				<a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
+				  Honey Homes
+				  <i class="icon-arrow-right text-21 ml-50">
+				  </i></a>
+				<a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
+				  Maitri
+				  <i class="icon-arrow-right text-21 ml-50">
+				  </i></a>
+				<a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
+				  Swapnapoorti CHS LTD
+				  <i class="icon-arrow-right text-21 ml-50">
+				  </i></a>
+				<a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
+				  Pride
+				  <i class="icon-arrow-right text-21 ml-50">
+				  </i></a>
+				<a href="javascript:void(0)" class="hoverTitle text-sec text-30 md:text-15 fw-500 pt-30 lg:pt-0">
+				  Heritage CHS LTD
+				  <i class="icon-arrow-right text-21 ml-50">
+				  </i></a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- project basket new end -->
+	<!-- what and why we -->
+	<section class="layout-pt-lg layout-pb-md">
+	  <div data-anim-wrap="" class="container">
+		<div class="row y-gap-50 items-center justify-between">
+		  <div class="col-lg-5 col-md-9">
+			<div data-anim-child="slide-up delay-1" class="text-15 uppercase mb-30 sm:mb-10">Why we are,
+			  what we are
+			</div>
+			<h2 data-anim-child="slide-up delay-2" class="text-64 md:text-40 capitalize">About us
+			</h2>
+			<p data-anim-child="slide-up delay-3" class="lh-18 pr-60 lg:pr-0 mt-40 md:mt-30">DDSR Builders
+			  &amp; Developers
+			  LLP is redefining the skyline of Navi Mumbai with a portfolio of quality projects that
+			  epitomize
+			  affordable luxury and convenience. With five years of industry experience, we have
+			  cultivated a deep
+			  understanding of our customers&#039; aspirations, delivering homes that perfectly balance
+			  style, preference,
+			  and budget.
+			</p>
+			<p data-anim-child="slide-up delay-4" class="lh-18 pr-60 lg:pr-0 mt-40 md:mt-30">Our expertise
+			  extends
+			  beyond completed residences to residential plots, where we leverage our profound knowledge
+			  to identify
+			  strategically located lands abundant in natural resources and poised for high appreciation.
+			</p>
+			<p data-anim-child="slide-up delay-5" class="lh-18 pr-60 lg:pr-0 mt-40 md:mt-30">DDSR Builders
+			  &amp; Developers
+			  LLP is dedicated to expanding its footprint across Kalamboli, Kamothe, Kharghar, New Panvel,
+			  and beyond
+			  into the Thane-Kalyan belt. Our team shares a singular ambition: to make superior living
+			  affordable and
+			  accessible to the masses. We believe in making dreams come true, offering well-planned,
+			  free-flowing
+			  living spaces that enhance everyday life. Our commitment to quality and meticulous planning
+			  ensures we
+			  deliver homes that bring joy and satisfaction to our customers.
+			</p>
+			<p data-anim-child="slide-up delay-9" class="lh-18 pr-60 lg:pr-0 mt-40 md:mt-30">Join us at DDSR
+			  Builders &amp;
+			  Developers LLP, where we strive to create beautiful spaces and see more smiles.
+			</p>
+		  </div>
+		  <div class="col-lg-6">
+			<div data-anim-child="img-right cover-white delay-5">
+			  <div class="imageGrid -type-3">
+				<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/About_2_373x456.jpg" alt="image" class="img-fluid"/>
+				<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/About_1_567x631.jpg" alt="image" class="img-fluid"/>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- what and why we end -->
+	<!-- our mission and Our ambitions -->
+	<section class="layout-pt-md">
+	  <div class="container">
+		<div data-anim-wrap="" class="row y-gap-30 items-center">
+		  <div data-anim-child="img-right cover-light-1 delay-2" class="col-md-6">
+			<div class="ratio ratio-1:1">
+			  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/mission.jpg" alt="image" class="img-ratio rounded-16"/>
+			</div>
+		  </div>
+		  <div class="col-lg-5 col-md-5 offset-md-1">
+			<i data-anim-child="slide-up delay-5" class="d-block icon-climb text-30 mb-30">
+			</i>
+			<h3 data-anim-child="slide-up delay-6" class="text-40 md:text-30 lh-065">Our Mission
+			</h3>
+			<ul data-anim-child="slide-up delay-7" class="ulList mt-40 text-17 lh-17 -type-1">
+			  <li>To create a lifestyle infrastructure that’s environment, social, wellness and
+				convenience-friendly.
+			  </li>
+			  <li>To locate our projects within striking distance of connectivity guaranteeing them as
+				good investments
+				for the future.
+			  </li>
+			  <li>To lay special emphasis on detailing, ensuring our customers receive every sq. yard and
+				sq. feet they
+				pay for while purchasing a plot or flat respectively.
+			  </li>
+			  <li>To ensure for them a property that comes with value additions in terms of either
+				world-class amenities
+				or branded fixtures and fittings OR both.
+			  </li>
+			</ul>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<section class="layout-pt-lg layout-pb-lg">
+	  <div class="container">
+		<div data-anim-wrap="" class="row y-gap-30 items-center">
+		  <div class="col-md-5">
+			<i data-anim-child="slide-up delay-5" class="d-block icon-rocks text-30 mb-30">
+			</i>
+			<h3 data-anim-child="slide-up delay-6" class="text-40 md:text-30 lh-065">Our Ambitions.
+			</h3>
+			<p data-anim-child="slide-up delay-7" class="text-17 lh-17 mt-40">At DDSR Builders &amp;
+			  Developers LLP, we
+			  envision becoming the benchmark for design and architectural excellence in residential,
+			  commercial, and
+			  retail infrastructure across Navi Mumbai. Join us as we shape the future of this vibrant
+			  city.
+			</p>
+		  </div>
+		  <div data-anim-child="img-right cover-light-1 delay-2" class="col-md-6 offset-md-1">
+			<div class="ratio ratio-1:1">
+			  <img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/ambitions.jpg" alt="image" class="img-ratio rounded-16"/>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- our mission and Our ambitions end -->
+	<!-- Our Values -->
+	<section class="layout-pt-md layout-pb-lg bg-light-1">
+	  <div data-anim-wrap="" class="container">
+		<div class="row y-gap-30 justify-center text-center">
+		  <div data-split="lines" data-anim-child="split-lines delay-2" class="col-auto px-100 mx-100 md:mx-10 md:px-10">
+			<h2 class="text-64 md:text-40 lh-065 mb-30 sm:mb-10">Our Values
+			</h2>
+			<div class="text-19">We uphold our Values and Principles to the highest standards. Without
+			  keeping
+			  those in our mind, the trust we have been given by our people would not have been possible
+			</div>
+		  </div>
+		</div>
+		<div class="row y-gap-30 pt-60 sm:pt-50">
+		  <div data-anim-child="slide-up delay-3" class="col-lg-4 col-md-6">
+			<div class="py-30 px-30 sm:py-10 sm:px-10 bg-white">
+			  <i data-anim-child="slide-up delay-3" class="d-block text-center icon-golf text-30 mb-30">
+			  </i>
+			  <h3 data-anim-child="slide-up delay-5" class="text-30 md:text-24 text-center lh-1 mb-30 sm:mb-10">Quality
+				Over Quantity
+			  </h3>
+			  <div data-anim-child="slide-up delay-6" class="line -horizontal bg-border mt-30 mb-30">
+			  </div>
+			  <div data-anim-child="slide-up delay-7" class="text-17 lh-18">
+				<ul class="ulList text-21 -type-1">
+				  <li>We prioritize creating exceptional properties, ensuring each one meets the
+					highest standards.
+				  </li>
+				  <li>Our residents can attest to the unparalleled quality and attention to detail in
+					every project.
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-3" class="col-lg-4 col-md-6">
+			<div class="py-30 px-30 sm:py-10 sm:px-10 bg-white">
+			  <i data-anim-child="slide-up delay-3" class="d-block text-center icon-golf text-30 mb-30">
+			  </i>
+			  <h3 data-anim-child="slide-up delay-5" class="text-30 md:text-24 text-center lh-1 mb-30 sm:mb-10">Timely
+				Delivery
+			  </h3>
+			  <div data-anim-child="slide-up delay-6" class="line -horizontal bg-border mt-30 mb-30">
+			  </div>
+			  <div data-anim-child="slide-up delay-7" class="text-17 lh-18">
+				<ul class="ulList text-21 -type-1">
+				  <li>We consistently deliver our projects on time, reflecting our proficiency and
+					dedication.
+				  </li>
+				  <li>Our commitment to punctuality ensures a seamless experience for our residents.
+				  </li>
+				  <br/>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-3" class="col-lg-4 col-md-6">
+			<div class="py-30 px-30 sm:py-10 sm:px-10 bg-white">
+			  <i data-anim-child="slide-up delay-3" class="d-block text-center icon-golf text-30 mb-30">
+			  </i>
+			  <h3 data-anim-child="slide-up delay-5" class="text-30 md:text-24 text-center lh-1 mb-30 sm:mb-10">Creating
+				Joyful Communities
+			  </h3>
+			  <div data-anim-child="slide-up delay-6" class="line -horizontal bg-border mt-30 mb-30">
+			  </div>
+			  <div data-anim-child="slide-up delay-7" class="text-17 lh-18">
+				<ul class="ulList text-21 -type-1">
+				  <li>Our ultimate goal is to see the joy and satisfaction on the faces of our new
+					residents.
+				  </li>
+				  <li>We are dedicated to building not just homes, but vibrant communities where
+					people feel truly at
+					home.
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-3" class="offset-lg-2 col-lg-4 col-md-6">
+			<div class="py-30 px-30 sm:py-10 sm:px-10 bg-white">
+			  <i data-anim-child="slide-up delay-3" class="d-block text-center icon-golf text-30 mb-30">
+			  </i>
+			  <h3 data-anim-child="slide-up delay-5" class="text-30 md:text-24 text-center lh-1 mb-30 sm:mb-10">
+				Thoughtful Amenity Selection
+			  </h3>
+			  <div data-anim-child="slide-up delay-6" class="line -horizontal bg-border mt-30 mb-30">
+			  </div>
+			  <div data-anim-child="slide-up delay-7" class="text-17 lh-18">
+				<ul class="ulList text-21 -type-1">
+				  <li>Our amenities are designed to foster a sense of community and enhance the living
+					experience.
+				  </li>
+				  <li>Every aspect of our planning is aimed at creating a connected and thriving
+					society.
+				  </li>
+				  <br/>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-3" class="col-lg-4 col-md-6">
+			<div class="py-30 px-30 sm:py-10 sm:px-10 bg-white">
+			  <i data-anim-child="slide-up delay-3" class="d-block text-center icon-golf text-30 mb-30">
+			  </i>
+			  <h3 data-anim-child="slide-up delay-5" class="text-30 md:text-24 text-center lh-1 mb-30 sm:mb-10">Building
+				Trust &amp; Reliability
+			  </h3>
+			  <div data-anim-child="slide-up delay-6" class="line -horizontal bg-border mt-30 mb-30">
+			  </div>
+			  <div data-anim-child="slide-up delay-7" class="text-17 lh-18">
+				<ul class="ulList text-21 -type-1">
+				  <li>Our unwavering focus on quality, timely delivery, and customer satisfaction
+					builds trust with our
+					clients.
+				  </li>
+				  <li>We are committed to maintaining transparency and reliability in all our
+					dealings.
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- Our Values end -->
+	<!-- our facilities -->
+	<section class="d-none layout-pt-lg layout-pb-lg bg-light-1">
+	  <div data-anim-wrap="" class="container">
+		<div class="row justify-center text-center">
+		  <div data-split="lines" data-anim-child="split-lines delay-2" class="col-auto">
+			<div class="text-15 uppercase mb-30 sm:mb-10">OUR SERVICES
+			</div>
+			<h2 class="text-64 md:text-40">Hotel Facilities
+			</h2>
+		  </div>
+		</div>
+		<div class="row y-gap-40 justify-between pt-100 sm:pt-50">
+		  <div data-anim-child="slide-up delay-4" class="col-lg-auto col-md-4 col-6">
+			<div class="iconCard -type-1 -hover-1 text-center">
+			  <div class="iconCard__icon text-50">
+				<div class="iconCard__icon__circle bg-white">
+				</div>
+				<i class="icon-wifi">
+				</i>
+			  </div>
+			  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Wifi &amp; Internet
+			  </h4>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-5" class="col-lg-auto col-md-4 col-6">
+			<div class="iconCard -type-1 -hover-1 text-center">
+			  <div class="iconCard__icon text-50">
+				<div class="iconCard__icon__circle bg-white">
+				</div>
+				<i class="icon-bus">
+				</i>
+			  </div>
+			  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Airport Transfer
+			  </h4>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-6" class="col-lg-auto col-md-4 col-6">
+			<div class="iconCard -type-1 -hover-1 text-center">
+			  <div class="iconCard__icon text-50">
+				<div class="iconCard__icon__circle bg-white">
+				</div>
+				<i class="icon-tv">
+				</i>
+			  </div>
+			  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Smart TV
+			  </h4>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-7" class="col-lg-auto col-md-4 col-6">
+			<div class="iconCard -type-1 -hover-1 text-center">
+			  <div class="iconCard__icon text-50">
+				<div class="iconCard__icon__circle bg-white">
+				</div>
+				<i class="icon-bed">
+				</i>
+			  </div>
+			  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Breakfast in Bed
+			  </h4>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-8" class="col-lg-auto col-md-4 col-6">
+			<div class="iconCard -type-1 -hover-1 text-center">
+			  <div class="iconCard__icon text-50">
+				<div class="iconCard__icon__circle bg-white">
+				</div>
+				<i class="icon-laundry">
+				</i>
+			  </div>
+			  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Laundry Services
+			  </h4>
+			</div>
+		  </div>
+		  <div data-anim-child="slide-up delay-9" class="col-lg-auto col-md-4 col-6">
+			<div class="iconCard -type-1 -hover-1 text-center">
+			  <div class="iconCard__icon text-50">
+				<div class="iconCard__icon__circle bg-white">
+				</div>
+				<i class="icon-housekeeper">
+				</i>
+			  </div>
+			  <h4 class="text-24 sm:text-21 lh-1 mt-30 sm:mt-15">Housekeeper Services
+			  </h4>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- testimonial -->
+	<section class="d-nn layout-pt-md layout-pb-lg bg-light">
+	  <div class="container">
+		<div class="row justify-center text-center">
+		  <div class="col-auto">
+			<div class="mb-40">
+			  <svg width="45" height="44" viewBox="0 0 45 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<g filter="url(#filter0_d_428_953)">
+				  <path d="M9.67883 38C6.64234 38 4.27007 36.9524 2.56204 34.8571C0.854015 32.6667 0 29.4286 0 25.1429C0 20.6667 0.99635 16.381 2.98905 12.2857C5.07664 8.19048 8.01825 4.14286 11.8139 0.142864C11.9088 0.0476213 12.0511 0 12.2409 0C12.5255 0 12.7153 0.142858 12.8102 0.428574C13 0.619048 13.0474 0.857143 12.9526 1.14286C10.6752 4.19048 9.10949 7.14286 8.25548 10C7.49635 12.7619 7.11679 15.8571 7.11679 19.2857C7.11679 21.8571 7.44891 23.8571 8.11314 25.2857C8.77737 26.7143 9.67883 28 10.8175 29.1429L5.40876 30.1429C5.31387 28.5238 5.74088 27.2857 6.68978 26.4286C7.73358 25.5714 9.06205 25.1429 10.6752 25.1429C12.6679 25.1429 14.1861 25.7143 15.2299 26.8571C16.3686 28 16.938 29.5714 16.938 31.5714C16.938 33.6667 16.2737 35.2857 14.9453 36.4286C13.7117 37.4762 11.9562 38 9.67883 38ZM31.5985 38C28.562 38 26.1898 36.9524 24.4818 34.8571C22.8686 32.6667 22.062 29.4286 22.062 25.1429C22.062 20.5714 23.0584 16.2381 25.0511 12.1429C27.0438 8.04762 29.9854 4.04762 33.8759 0.142864C33.9708 0.0476213 34.1131 0 34.3029 0C34.5876 0 34.7774 0.142858 34.8723 0.428574C35.062 0.619048 35.1095 0.857143 35.0146 1.14286C32.7372 4.19048 31.1715 7.14286 30.3175 10C29.5584 12.7619 29.1788 15.8571 29.1788 19.2857C29.1788 21.8571 29.4635 23.9048 30.0328 25.4286C30.6971 26.8571 31.5985 28.0952 32.7372 29.1429L27.4708 30.1429C27.3759 28.5238 27.8029 27.2857 28.7518 26.4286C29.7007 25.5714 31.0292 25.1429 32.7372 25.1429C34.7299 25.1429 36.2482 25.7143 37.292 26.8571C38.4307 28 39 29.5714 39 31.5714C39 33.6667 38.3358 35.2857 37.0073 36.4286C35.7737 37.4762 33.9708 38 31.5985 38Z" fill="#122223">
+				  </path>
+				</g>
+				<defs>
+				  <filter id="filter0_d_428_953-2" x="0" y="0" width="45" height="44" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix">
+					</feFlood>
+					<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha">
+					</feColorMatrix>
+					<feOffset dx="6" dy="6">
+					</feOffset>
+					<feComposite in2="hardAlpha" operator="out">
+					</feComposite>
+					<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0">
+					</feColorMatrix>
+					<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_428_953">
+					</feBlend>
+					<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_428_953" result="shape">
+					</feBlend>
+				  </filter>
+				</defs>
+			  </svg>
+			</div>
+			<div class="text-15 uppercase mb-30 sm:mb-15">VOICE FROM OUR GUESTS
+			</div>
+			<h2 class="text-64 md:text-40 lh-065">Testimonials
+			</h2>
+		  </div>
+		</div>
+	  </div>
+	  <div class="relative container">
+		<div class="row justify-center pt-100 sm:pt-50">
+		  <div class="col-xl-8 col-lg-10 col-9">
+			<div data-gap="30" data-slider-cols="xl-1 lg-1 md-1 sm-1 base-1" data-nav-prev="js-slider3-prev" data-nav-next="js-slider3-next" class="overflow-hidden js-section-slider">
+			  <div class="swiper-wrapper">
+				<div class="swiper-slide">
+				  <div class="text-center">
+					<div class="text-sec text-40 md:text-24">
+					  &quot;DDSR Group in Kalamboli is the gold standard of trustworthiness in
+					  development. Their professionalism, attention to detail, and integrity make
+					  them the go-to choice for any project. Highly recommended.&quot;
+					</div>
+					<div class="mt-50">Rahul Kamble - Happy Customer
+					</div>
+				  </div>
+				</div>
+				<div class="swiper-slide d-none">
+				  <div class="text-center">
+					<div class="text-sec text-40 md:text-24">
+					  “Some places are so good to stay in, you don&#039;t want to generate a rush
+					  on them. The DDSR Group
+					  lodge hotel in London is one of them.”
+					</div>
+					<div class="mt-50">person - Trip Advisor
+					</div>
+				  </div>
+				</div>
+				<div class="swiper-slide d-none">
+				  <div class="text-center">
+					<div class="text-sec text-40 md:text-24">
+					  “Some places are so good to stay in, you don&#039;t want to generate a rush
+					  on them. The DDSR Group
+					  lodge hotel in London is one of them.”
+					</div>
+					<div class="mt-50">person - Trip Advisor
+					</div>
+				  </div>
+				</div>
+				<div class="swiper-slide d-none">
+				  <div class="text-center">
+					<div class="text-sec text-40 md:text-24">
+					  “Some places are so good to stay in, you don&#039;t want to generate a rush
+					  on them. The DDSR Group
+					  lodge hotel in London is one of them.”
+					</div>
+					<div class="mt-50">person - Trip Advisor
+					</div>
+				  </div>
+				</div>
+				<div class="swiper-slide d-none">
+				  <div class="text-center">
+					<div class="text-sec text-40 md:text-24">
+					  “Some places are so good to stay in, you don&#039;t want to generate a rush
+					  on them. The DDSR Group
+					  lodge hotel in London is one of them.”
+					</div>
+					<div class="mt-50">person - Trip Advisor
+					</div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="navAbsolute">
+				<button class="size-80 flex-center rounded-full js-slider3-prev"><i class="icon-arrow-left text-24">
+				  </i></button>
+				<button class="size-80 flex-center rounded-full js-slider3-next"><i class="icon-arrow-right text-24">
+				  </i></button>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- CTA -->
+	<section class="cta -type-1">
+	  <div class="cta__bg">
+		<img src="https://ddsrgroup.com/frontend/ddsr/assets/img/AboutUs/About_Cover.jpg" alt="image" class="img-fluid"/>
+	  </div>
+	  <div class="container">
+		<div class="row justify-center text-center">
+		  <div class="col-auto">
+			<h2 class="text-92 lg:text-64 md:text-30 text-white">
+			  Luxury Awaits.
+			  <br class="lg:d-none"/> Book Now!
+			</h2>
+			<a href="https://ddsrgroup.com/contact" class="button -md -type-2 bg-accent-2 -accent-1 mx-auto mt-40">BOOK NOW</a>
+		  </div>
+		</div>
+	  </div>
+	</section>
+	<!-- Footer -->
+	[[This-Is-Component title=&#039;Footer&#039;]]
+	<!-- Footer end -->
+  </main>
+</body>

@@ -1,0 +1,28 @@
+<body>[[This-Is-Component title=&#039;Menu&#039;]]
+  <main>
+	<!-- DESKTOP HEADERS -->
+	[[This-Is-Component title=&#039;Header&#039;]]
+	<!-- First slide - Slider -->
+	[[This-Is-Component title=&#039;HomeSlider&#039;]]
+	<!-- Map -->
+	[[This-Is-Component title=&#039;Map&#039;]]
+	<!-- Map end -->
+	<!-- Counter -->
+	[[This-Is-Component title=&#039;Counter&#039;]]
+	<!-- Second Slide - overview -->
+	[[This-Is-Component title=&#039;SecondSlider&#039;]]
+	<!-- Rooms Slider -->
+	[[This-Is-Component title=&#039;RoomSlider&#039;]]
+	<!-- 20 yrs experience -->
+	[[This-Is-Component title=&#039;Experience&#039;]]
+	[[This-Is-Vertical-Slider]]
+	<!--This-Is-Component title=&#039;VerticalSlider&#039;-->
+	<!-- Testimonials new but old from theme-->
+	[[This-Is-Component title=&#039;Testimonials&#039;]]
+	<!-- Contact Form [[This-Is-Contact]]-->
+	[[This-Is-Component title=&#039;ContactComponent&#039;]]
+	<!-- Footer -->
+	[[This-Is-Component title=&#039;Footer&#039;]]
+	<!-- Footer end -->
+  </main>
+</body>
